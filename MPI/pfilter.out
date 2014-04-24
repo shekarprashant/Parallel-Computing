@@ -1,0 +1,2012 @@
+----------------------------------------
+Begin PBS Prologue Wed Apr  2 18:01:22 PDT 2014
+Job ID:            7757639.hpc-pbs.hpcc.usc.edu
+Username:          piyer
+Group:             csci-ar
+Name:              pfilter
+Queue:             main
+Shared Access:     no
+All Cores:         no
+Nodes:             hpc2357 hpc2358 hpc2360 hpc2361 hpc2362 hpc2363 hpc2364 hpc2365 hpc2366 hpc2367 hpc2368 hpc2369 hpc2370 hpc2470 hpc2472 hpc2473 
+PVFS:              /scratch (tcp://hpc2357.m10g.hpcc.usc.edu:3334/pvfs2-fs), /staging (tcp://hpc-ofs05.ib.hpcc.usc.edu:3334/staging)
+TMPDIR:            /tmp/7757639.hpc-pbs.hpcc.usc.edu
+End PBS Prologue Wed Apr  2 18:01:30 PDT 2014
+----------------------------------------
+-----------------------------------------------
+Filter = mean
+Window Size = 3
+Maximum processors available = 32
+Number of processes 32
+ ----------------------------------------------
+ ----------------------------------------------
+[0ms: hpc2366 (P16)]: Processing with filter: mean and window size:3
+
+ ----------------------------------------------
+[0ms: hpc2366 (P17)]: Processing with filter: mean and window size:3
+
+ ----------------------------------------------
+ ----------------------------------------------
+ ----------------------------------------------
+[0ms: hpc2357 (P0)]: Processing with filter: mean and window size:3
+
+[0ms: hpc2357 (P0)]: * doing parallel image filtering ** 
+[0ms: hpc2357 (P0)]: * reading regular tiff: ./input/moon_in.tiff
+[0ms: hpc2357 (P1)]: Processing with filter: mean and window size:3
+
+ ----------------------------------------------
+ ----------------------------------------------
+ ----------------------------------------------
+[0ms: hpc2368 (P20)]: Processing with filter: mean and window size:3
+
+ ----------------------------------------------
+[0ms: hpc2368 (P21)]: Processing with filter: mean and window size:3
+
+ ----------------------------------------------
+[0ms: hpc2369 (P22)]: Processing with filter: mean and window size:3
+
+ ----------------------------------------------
+[0ms: hpc2369 (P23)]: Processing with filter: mean and window size:3
+
+[0ms: hpc2358 (P2)]: Processing with filter: mean and window size:3
+
+[0ms: hpc2358 (P3)]: Processing with filter: mean and window size:3
+
+ ----------------------------------------------
+[0ms: hpc2367 (P18)]: Processing with filter: mean and window size:3
+
+ ----------------------------------------------
+[0ms: hpc2367 (P19)]: Processing with filter: mean and window size:3
+
+ ----------------------------------------------
+[0ms: hpc2362 (P8)]: Processing with filter: mean and window size:3
+
+ ----------------------------------------------
+[0ms: hpc2362 (P9)]: Processing with filter: mean and window size:3
+
+ ----------------------------------------------
+[0ms: hpc2364 (P12)]: Processing with filter: mean and window size:3
+
+ ----------------------------------------------
+ ----------------------------------------------
+[0ms: hpc2472 (P28)]: Processing with filter: mean and window size:3
+
+ ----------------------------------------------
+[0ms: hpc2472 (P29)]: Processing with filter: mean and window size:3
+
+[0ms: hpc2364 (P13)]: Processing with filter: mean and window size:3
+
+ ----------------------------------------------
+[0ms: hpc2361 (P6)]: Processing with filter: mean and window size:3
+
+ ----------------------------------------------
+[0ms: hpc2361 (P7)]: Processing with filter: mean and window size:3
+
+ ----------------------------------------------
+ ----------------------------------------------
+[0ms: hpc2470 (P27)]: Processing with filter: mean and window size:3
+
+ ----------------------------------------------
+[0ms: hpc2473 (P30)]: Processing with filter: mean and window size:3
+
+[0ms: hpc2470 (P26)]: Processing with filter: mean and window size:3
+
+ ----------------------------------------------
+[0ms: hpc2473 (P31)]: Processing with filter: mean and window size:3
+
+ ----------------------------------------------
+[0ms: hpc2363 (P10)]: Processing with filter: mean and window size:3
+
+ ----------------------------------------------
+[0ms: hpc2363 (P11)]: Processing with filter: mean and window size:3
+
+ ----------------------------------------------
+[0ms: hpc2365 (P14)]: Processing with filter: mean and window size:3
+
+ ----------------------------------------------
+[0ms: hpc2365 (P15)]: Processing with filter: mean and window size:3
+
+ ----------------------------------------------
+[0ms: hpc2370 (P24)]: Processing with filter: mean and window size:3
+
+ ----------------------------------------------
+[0ms: hpc2370 (P25)]: Processing with filter: mean and window size:3
+
+[0ms: hpc2360 (P4)]: Processing with filter: mean and window size:3
+
+[0ms: hpc2360 (P5)]: Processing with filter: mean and window size:3
+
+[9486.32ms: hpc2357 (P1)]: Received image segment bordered by: (0,0) and (229,494). Size:  230x495
+[9487ms: hpc2358 (P2)]: Received image segment bordered by: (0,492) and (229,987). Size:  230x496
+[9491.94ms: hpc2358 (P3)]: Received image segment bordered by: (0,985) and (229,1480). Size:  230x496
+[9483.71ms: hpc2360 (P4)]: Received image segment bordered by: (0,1478) and (229,1973). Size:  230x496
+[9488.5ms: hpc2360 (P5)]: Received image segment bordered by: (0,1971) and (229,2466). Size:  230x496
+[9511.67ms: hpc2361 (P6)]: Received image segment bordered by: (0,2464) and (229,2952). Size:  230x489
+[9515.6ms: hpc2361 (P7)]: Received image segment bordered by: (227,0) and (457,494). Size:  231x495
+[9519.65ms: hpc2362 (P8)]: Received image segment bordered by: (227,492) and (457,987). Size:  231x496
+[9524.28ms: hpc2362 (P9)]: Received image segment bordered by: (227,985) and (457,1480). Size:  231x496
+[9521.57ms: hpc2363 (P10)]: Received image segment bordered by: (227,1478) and (457,1973). Size:  231x496
+[9526.29ms: hpc2363 (P11)]: Received image segment bordered by: (227,1971) and (457,2466). Size:  231x496
+[9532.87ms: hpc2364 (P12)]: Received image segment bordered by: (227,2464) and (457,2952). Size:  231x489
+[9537.45ms: hpc2364 (P13)]: Received image segment bordered by: (455,0) and (685,494). Size:  231x495
+[9537.72ms: hpc2365 (P14)]: Received image segment bordered by: (455,492) and (685,987). Size:  231x496
+[9542.5ms: hpc2365 (P15)]: Received image segment bordered by: (455,985) and (685,1480). Size:  231x496
+[9561.66ms: hpc2366 (P16)]: Received image segment bordered by: (455,1478) and (685,1973). Size:  231x496
+[9566.42ms: hpc2366 (P17)]: Received image segment bordered by: (455,1971) and (685,2466). Size:  231x496
+[9562.07ms: hpc2367 (P18)]: Received image segment bordered by: (455,2464) and (685,2952). Size:  231x489
+[9566.83ms: hpc2367 (P19)]: Received image segment bordered by: (683,0) and (913,494). Size:  231x495
+[9575.75ms: hpc2368 (P20)]: Received image segment bordered by: (683,492) and (913,987). Size:  231x496
+[9578.32ms: hpc2368 (P21)]: Received image segment bordered by: (683,985) and (913,1480). Size:  231x496
+[9583.7ms: hpc2369 (P22)]: Received image segment bordered by: (683,1478) and (913,1973). Size:  231x496
+[9588.43ms: hpc2369 (P23)]: Received image segment bordered by: (683,1971) and (913,2466). Size:  231x496
+[9581.55ms: hpc2370 (P24)]: Received image segment bordered by: (683,2464) and (913,2952). Size:  231x489
+[9586.26ms: hpc2370 (P25)]: Received image segment bordered by: (911,0) and (1141,494). Size:  231x495
+[9598.83ms: hpc2470 (P26)]: Received image segment bordered by: (911,492) and (1141,987). Size:  231x496
+[9603.4ms: hpc2470 (P27)]: Received image segment bordered by: (911,985) and (1141,1480). Size:  231x496
+[9609.68ms: hpc2472 (P28)]: Received image segment bordered by: (911,1478) and (1141,1973). Size:  231x496
+[9614.48ms: hpc2472 (P29)]: Received image segment bordered by: (911,1971) and (1141,2466). Size:  231x496
+[9617.54ms: hpc2473 (P30)]: Received image segment bordered by: (911,2464) and (1141,2952). Size:  231x489
+[9622.24ms: hpc2473 (P31)]: Received image segment bordered by: (1139,0) and (1363,494). Size:  225x495
+[9632.73ms: hpc2357 (P1)]: Sent image segment bordered by: (0,0) and (227,492). Size:  228x493
+[9632.28ms: hpc2358 (P2)]: Sent image segment bordered by: (0,493) and (227,985). Size:  228x493
+[9637.91ms: hpc2358 (P3)]: Sent image segment bordered by: (0,986) and (227,1478). Size:  228x493
+[9630.5ms: hpc2360 (P4)]: Sent image segment bordered by: (0,1479) and (227,1971). Size:  228x493
+[9636.14ms: hpc2360 (P5)]: Sent image segment bordered by: (0,1972) and (227,2464). Size:  228x493
+[9660.13ms: hpc2361 (P6)]: Sent image segment bordered by: (0,2465) and (227,2952). Size:  228x488
+[9660.19ms: hpc2361 (P6)]: -- done --
+
+[9664.88ms: hpc2361 (P7)]: Sent image segment bordered by: (228,0) and (455,492). Size:  228x493
+[9664.94ms: hpc2361 (P7)]: -- done --
+
+[9669.74ms: hpc2362 (P8)]: Sent image segment bordered by: (228,493) and (455,985). Size:  228x493
+[9669.8ms: hpc2362 (P8)]: -- done --
+
+[9675.32ms: hpc2362 (P9)]: Sent image segment bordered by: (228,986) and (455,1478). Size:  228x493
+[9675.39ms: hpc2362 (P9)]: -- done --
+
+[9673.29ms: hpc2363 (P10)]: Sent image segment bordered by: (228,1479) and (455,1971). Size:  228x493
+[9673.35ms: hpc2363 (P10)]: -- done --
+
+[9678.94ms: hpc2363 (P11)]: Sent image segment bordered by: (228,1972) and (455,2464). Size:  228x493
+[9679ms: hpc2363 (P11)]: -- done --
+
+[9686.38ms: hpc2364 (P12)]: Sent image segment bordered by: (228,2465) and (455,2952). Size:  228x488
+[9686.43ms: hpc2364 (P12)]: -- done --
+
+[9691.81ms: hpc2364 (P13)]: Sent image segment bordered by: (456,0) and (683,492). Size:  228x493
+[9691.87ms: hpc2364 (P13)]: -- done --
+
+[9692.97ms: hpc2365 (P14)]: Sent image segment bordered by: (456,493) and (683,985). Size:  228x493
+[9693.03ms: hpc2365 (P14)]: -- done --
+
+[9698.6ms: hpc2365 (P15)]: Sent image segment bordered by: (456,986) and (683,1478). Size:  228x493
+[9698.66ms: hpc2365 (P15)]: -- done --
+
+[9718.54ms: hpc2366 (P16)]: Sent image segment bordered by: (456,1479) and (683,1971). Size:  228x493
+[9718.62ms: hpc2366 (P16)]: -- done --
+
+[9724.15ms: hpc2366 (P17)]: Sent image segment bordered by: (456,1972) and (683,2464). Size:  228x493
+[9724.22ms: hpc2366 (P17)]: -- done --
+
+[9720.69ms: hpc2367 (P18)]: Sent image segment bordered by: (456,2465) and (683,2952). Size:  228x488
+[9720.75ms: hpc2367 (P18)]: -- done --
+
+[9726.37ms: hpc2367 (P19)]: Sent image segment bordered by: (684,0) and (911,492). Size:  228x493
+[9726.43ms: hpc2367 (P19)]: -- done --
+
+[9736.14ms: hpc2368 (P20)]: Sent image segment bordered by: (684,493) and (911,985). Size:  228x493
+[9736.2ms: hpc2368 (P20)]: -- done --
+
+[9739.62ms: hpc2368 (P21)]: Sent image segment bordered by: (684,986) and (911,1478). Size:  228x493
+[9739.68ms: hpc2368 (P21)]: -- done --
+
+[9745.8ms: hpc2369 (P22)]: Sent image segment bordered by: (684,1479) and (911,1971). Size:  228x493
+[9745.85ms: hpc2369 (P22)]: -- done --
+
+[9751.37ms: hpc2369 (P23)]: Sent image segment bordered by: (684,1972) and (911,2464). Size:  228x493
+[9751.45ms: hpc2369 (P23)]: -- done --
+
+[9745.32ms: hpc2370 (P24)]: Sent image segment bordered by: (684,2465) and (911,2952). Size:  228x488
+[9745.38ms: hpc2370 (P24)]: -- done --
+
+[9750.92ms: hpc2370 (P25)]: Sent image segment bordered by: (912,0) and (1139,492). Size:  228x493
+[9750.98ms: hpc2370 (P25)]: -- done --
+
+[9764.32ms: hpc2470 (P26)]: Sent image segment bordered by: (912,493) and (1139,985). Size:  228x493
+[9764.37ms: hpc2470 (P26)]: -- done --
+
+[9769.87ms: hpc2470 (P27)]: Sent image segment bordered by: (912,986) and (1139,1478). Size:  228x493
+[9769.93ms: hpc2470 (P27)]: -- done --
+
+[9777ms: hpc2472 (P28)]: Sent image segment bordered by: (912,1479) and (1139,1971). Size:  228x493
+[9777.06ms: hpc2472 (P28)]: -- done --
+
+[9782.72ms: hpc2472 (P29)]: Sent image segment bordered by: (912,1972) and (1139,2464). Size:  228x493
+[9782.78ms: hpc2472 (P29)]: -- done --
+
+[9786.58ms: hpc2473 (P30)]: Sent image segment bordered by: (912,2465) and (1139,2952). Size:  228x488
+[9786.64ms: hpc2473 (P30)]: -- done --
+
+[9792.19ms: hpc2473 (P31)]: Sent image segment bordered by: (1140,0) and (1363,492). Size:  224x493
+[9792.25ms: hpc2473 (P31)]: -- done --
+
+[9808.5ms: hpc2357 (P1)]: Received image segment bordered by: (1139,492) and (1363,987). Size:  225x496
+[9808.68ms: hpc2358 (P2)]: Received image segment bordered by: (1139,985) and (1363,1480). Size:  225x496
+[9813.35ms: hpc2358 (P3)]: Received image segment bordered by: (1139,1478) and (1363,1973). Size:  225x496
+[9804.73ms: hpc2360 (P4)]: Received image segment bordered by: (1139,1971) and (1363,2466). Size:  225x496
+[9809.21ms: hpc2360 (P5)]: Received image segment bordered by: (1139,2464) and (1363,2952). Size:  225x489
+[9845.63ms: hpc2357 (P1)]: Sent image segment bordered by: (1140,493) and (1363,985). Size:  224x493
+[9845.69ms: hpc2357 (P1)]: -- done --
+
+[9847.86ms: hpc2358 (P2)]: Sent image segment bordered by: (1140,986) and (1363,1478). Size:  224x493
+[9847.92ms: hpc2358 (P2)]: -- done --
+
+[9853.28ms: hpc2358 (P3)]: Sent image segment bordered by: (1140,1479) and (1363,1971). Size:  224x493
+[9853.33ms: hpc2358 (P3)]: -- done --
+
+[9845.59ms: hpc2360 (P4)]: Sent image segment bordered by: (1140,1972) and (1363,2464). Size:  224x493
+[9845.64ms: hpc2360 (P4)]: -- done --
+
+[9850.99ms: hpc2360 (P5)]: Sent image segment bordered by: (1140,2465) and (1363,2952). Size:  224x488
+[9851.05ms: hpc2360 (P5)]: -- done --
+
+[9872.81ms: hpc2357 (P0)]: Saving image: p_moon_fmean_w3_n32.tiff
+[10384.2ms: hpc2357 (P0)]: -- done --
+
+ ----------------------------------------------
+* doing serial image filtering ** 
+* reading regular tiff: ./input/moon_in.tiff
+* processing with filter: mean
+* saving image: s_moon_fmean_w3_n32.tiff
+-- done --
+s_moon_fmean_w3_n32.tiff is the same as p_moon_fmean_w3_n32.tiff
+ ----------------------------------------------
+-----------------------------------------------
+Filter = mean
+Window Size = 5
+Maximum processors available = 32
+Number of processes 32
+ ----------------------------------------------
+[0ms: hpc2360 (P4)]: Processing with filter: mean and window size:5
+
+ ----------------------------------------------
+ ----------------------------------------------
+[0ms: hpc2360 (P5)]: Processing with filter: mean and window size:5
+
+ ----------------------------------------------
+[0ms: hpc2366 (P16)]: Processing with filter: mean and window size:5
+
+ ----------------------------------------------
+[0ms: hpc2362 (P9)]: Processing with filter: mean and window size:5
+
+ ----------------------------------------------
+[0ms: hpc2361 (P6)]: Processing with filter: mean and window size:5
+
+ ----------------------------------------------
+[0ms: hpc2366 (P17)]: Processing with filter: mean and window size:5
+
+ ----------------------------------------------
+ ----------------------------------------------
+[0ms: hpc2358 (P2)]: Processing with filter: mean and window size:5
+
+ ----------------------------------------------
+[0ms: hpc2358 (P3)]: Processing with filter: mean and window size:5
+
+[0ms: hpc2357 (P0)]: Processing with filter: mean and window size:5
+
+[0ms: hpc2357 (P0)]: * doing parallel image filtering ** 
+[0ms: hpc2357 (P0)]: * reading regular tiff: ./input/moon_in.tiff
+ ----------------------------------------------
+[0ms: hpc2368 (P20)]: Processing with filter: mean and window size:5
+
+ ----------------------------------------------
+ ----------------------------------------------
+[0ms: hpc2367 (P18)]: Processing with filter: mean and window size:5
+
+ ----------------------------------------------
+[0ms: hpc2369 (P22)]: Processing with filter: mean and window size:5
+
+ ----------------------------------------------
+[0ms: hpc2369 (P23)]: Processing with filter: mean and window size:5
+
+[0ms: hpc2361 (P7)]: Processing with filter: mean and window size:5
+
+[0ms: hpc2357 (P1)]: Processing with filter: mean and window size:5
+
+ ----------------------------------------------
+[0ms: hpc2364 (P12)]: Processing with filter: mean and window size:5
+
+ ----------------------------------------------
+ ----------------------------------------------
+[0ms: hpc2365 (P14)]: Processing with filter: mean and window size:5
+
+ ----------------------------------------------
+[0ms: hpc2470 (P26)]: Processing with filter: mean and window size:5
+
+ ----------------------------------------------
+[0ms: hpc2472 (P28)]: Processing with filter: mean and window size:5
+
+ ----------------------------------------------
+[0ms: hpc2365 (P15)]: Processing with filter: mean and window size:5
+
+ ----------------------------------------------
+[0ms: hpc2363 (P10)]: Processing with filter: mean and window size:5
+
+ ----------------------------------------------
+[0ms: hpc2363 (P11)]: Processing with filter: mean and window size:5
+
+ ----------------------------------------------
+[0ms: hpc2362 (P8)]: Processing with filter: mean and window size:5
+
+ ----------------------------------------------
+[0ms: hpc2470 (P27)]: Processing with filter: mean and window size:5
+
+ ----------------------------------------------
+[0ms: hpc2473 (P30)]: Processing with filter: mean and window size:5
+
+ ----------------------------------------------
+ ----------------------------------------------
+[0ms: hpc2472 (P29)]: Processing with filter: mean and window size:5
+
+ ----------------------------------------------
+[0ms: hpc2367 (P19)]: Processing with filter: mean and window size:5
+
+[0ms: hpc2364 (P13)]: Processing with filter: mean and window size:5
+
+ ----------------------------------------------
+[0ms: hpc2368 (P21)]: Processing with filter: mean and window size:5
+
+ ----------------------------------------------
+[0ms: hpc2370 (P25)]: Processing with filter: mean and window size:5
+
+ ----------------------------------------------
+[0ms: hpc2473 (P31)]: Processing with filter: mean and window size:5
+
+[0ms: hpc2370 (P24)]: Processing with filter: mean and window size:5
+
+[473.473ms: hpc2357 (P1)]: Received image segment bordered by: (0,0) and (230,495). Size:  231x496
+[479.777ms: hpc2358 (P2)]: Received image segment bordered by: (0,491) and (230,988). Size:  231x498
+[484.642ms: hpc2358 (P3)]: Received image segment bordered by: (0,984) and (230,1481). Size:  231x498
+[489.706ms: hpc2360 (P4)]: Received image segment bordered by: (0,1477) and (230,1974). Size:  231x498
+[494.429ms: hpc2360 (P5)]: Received image segment bordered by: (0,1970) and (230,2467). Size:  231x498
+[499.077ms: hpc2361 (P6)]: Received image segment bordered by: (0,2463) and (230,2952). Size:  231x490
+[503.872ms: hpc2361 (P7)]: Received image segment bordered by: (226,0) and (458,495). Size:  233x496
+[507.724ms: hpc2362 (P8)]: Received image segment bordered by: (226,491) and (458,988). Size:  233x498
+[513.904ms: hpc2362 (P9)]: Received image segment bordered by: (226,984) and (458,1481). Size:  233x498
+[517.862ms: hpc2363 (P10)]: Received image segment bordered by: (226,1477) and (458,1974). Size:  233x498
+[522.83ms: hpc2363 (P11)]: Received image segment bordered by: (226,1970) and (458,2467). Size:  233x498
+[527.323ms: hpc2364 (P12)]: Received image segment bordered by: (226,2463) and (458,2952). Size:  233x490
+[532.168ms: hpc2364 (P13)]: Received image segment bordered by: (454,0) and (686,495). Size:  233x496
+[537.23ms: hpc2365 (P14)]: Received image segment bordered by: (454,491) and (686,988). Size:  233x498
+[541.993ms: hpc2365 (P15)]: Received image segment bordered by: (454,984) and (686,1481). Size:  233x498
+[547.958ms: hpc2366 (P16)]: Received image segment bordered by: (454,1477) and (686,1974). Size:  233x498
+[552.671ms: hpc2366 (P17)]: Received image segment bordered by: (454,1970) and (686,2467). Size:  233x498
+[556.561ms: hpc2367 (P18)]: Received image segment bordered by: (454,2463) and (686,2952). Size:  233x490
+[560.966ms: hpc2367 (P19)]: Received image segment bordered by: (682,0) and (914,495). Size:  233x496
+[567.095ms: hpc2368 (P20)]: Received image segment bordered by: (682,491) and (914,988). Size:  233x498
+[570.904ms: hpc2368 (P21)]: Received image segment bordered by: (682,984) and (914,1481). Size:  233x498
+[576.275ms: hpc2369 (P22)]: Received image segment bordered by: (682,1477) and (914,1974). Size:  233x498
+[581.096ms: hpc2369 (P23)]: Received image segment bordered by: (682,1970) and (914,2467). Size:  233x498
+[584.925ms: hpc2370 (P24)]: Received image segment bordered by: (682,2463) and (914,2952). Size:  233x490
+[589.937ms: hpc2370 (P25)]: Received image segment bordered by: (910,0) and (1142,495). Size:  233x496
+[595.455ms: hpc2470 (P26)]: Received image segment bordered by: (910,491) and (1142,988). Size:  233x498
+[599.719ms: hpc2470 (P27)]: Received image segment bordered by: (910,984) and (1142,1481). Size:  233x498
+[605.107ms: hpc2472 (P28)]: Received image segment bordered by: (910,1477) and (1142,1974). Size:  233x498
+[609.403ms: hpc2472 (P29)]: Received image segment bordered by: (910,1970) and (1142,2467). Size:  233x498
+[614.253ms: hpc2473 (P30)]: Received image segment bordered by: (910,2463) and (1142,2952). Size:  233x490
+[618.965ms: hpc2473 (P31)]: Received image segment bordered by: (1138,0) and (1363,495). Size:  226x496
+[621.463ms: hpc2357 (P1)]: Sent image segment bordered by: (0,0) and (227,492). Size:  228x493
+[626.609ms: hpc2358 (P2)]: Sent image segment bordered by: (0,493) and (227,985). Size:  228x493
+[632.189ms: hpc2358 (P3)]: Sent image segment bordered by: (0,986) and (227,1478). Size:  228x493
+[637.995ms: hpc2360 (P4)]: Sent image segment bordered by: (0,1479) and (227,1971). Size:  228x493
+[643.606ms: hpc2360 (P5)]: Sent image segment bordered by: (0,1972) and (227,2464). Size:  228x493
+[649.028ms: hpc2361 (P6)]: Sent image segment bordered by: (0,2465) and (227,2952). Size:  228x488
+[649.093ms: hpc2361 (P6)]: -- done --
+
+[654.558ms: hpc2361 (P7)]: Sent image segment bordered by: (228,0) and (455,492). Size:  228x493
+[654.624ms: hpc2361 (P7)]: -- done --
+
+[659.136ms: hpc2362 (P8)]: Sent image segment bordered by: (228,493) and (455,985). Size:  228x493
+[659.203ms: hpc2362 (P8)]: -- done --
+
+[666.203ms: hpc2362 (P9)]: Sent image segment bordered by: (228,986) and (455,1478). Size:  228x493
+[666.258ms: hpc2362 (P9)]: -- done --
+
+[670.947ms: hpc2363 (P10)]: Sent image segment bordered by: (228,1479) and (455,1971). Size:  228x493
+[671.006ms: hpc2363 (P10)]: -- done --
+
+[676.711ms: hpc2363 (P11)]: Sent image segment bordered by: (228,1972) and (455,2464). Size:  228x493
+[676.775ms: hpc2363 (P11)]: -- done --
+
+[682.032ms: hpc2364 (P12)]: Sent image segment bordered by: (228,2465) and (455,2952). Size:  228x488
+[682.091ms: hpc2364 (P12)]: -- done --
+
+[687.619ms: hpc2364 (P13)]: Sent image segment bordered by: (456,0) and (683,492). Size:  228x493
+[687.69ms: hpc2364 (P13)]: -- done --
+
+[693.547ms: hpc2365 (P14)]: Sent image segment bordered by: (456,493) and (683,985). Size:  228x493
+[693.606ms: hpc2365 (P14)]: -- done --
+
+[699.249ms: hpc2365 (P15)]: Sent image segment bordered by: (456,986) and (683,1478). Size:  228x493
+[699.313ms: hpc2365 (P15)]: -- done --
+
+[706.054ms: hpc2366 (P16)]: Sent image segment bordered by: (456,1479) and (683,1971). Size:  228x493
+[706.112ms: hpc2366 (P16)]: -- done --
+
+[711.672ms: hpc2366 (P17)]: Sent image segment bordered by: (456,1972) and (683,2464). Size:  228x493
+[711.736ms: hpc2366 (P17)]: -- done --
+
+[716.275ms: hpc2367 (P18)]: Sent image segment bordered by: (456,2465) and (683,2952). Size:  228x488
+[716.338ms: hpc2367 (P18)]: -- done --
+
+[721.505ms: hpc2367 (P19)]: Sent image segment bordered by: (684,0) and (911,492). Size:  228x493
+[721.564ms: hpc2367 (P19)]: -- done --
+
+[728.403ms: hpc2368 (P20)]: Sent image segment bordered by: (684,493) and (911,985). Size:  228x493
+[728.476ms: hpc2368 (P20)]: -- done --
+
+[732.963ms: hpc2368 (P21)]: Sent image segment bordered by: (684,986) and (911,1478). Size:  228x493
+[733.019ms: hpc2368 (P21)]: -- done --
+
+[739.161ms: hpc2369 (P22)]: Sent image segment bordered by: (684,1479) and (911,1971). Size:  228x493
+[739.227ms: hpc2369 (P22)]: -- done --
+
+[744.775ms: hpc2369 (P23)]: Sent image segment bordered by: (684,1972) and (911,2464). Size:  228x493
+[744.837ms: hpc2369 (P23)]: -- done --
+
+[749.353ms: hpc2370 (P24)]: Sent image segment bordered by: (684,2465) and (911,2952). Size:  228x488
+[749.412ms: hpc2370 (P24)]: -- done --
+
+[755.118ms: hpc2370 (P25)]: Sent image segment bordered by: (912,0) and (1139,492). Size:  228x493
+[755.174ms: hpc2370 (P25)]: -- done --
+
+[761.551ms: hpc2470 (P26)]: Sent image segment bordered by: (912,493) and (1139,985). Size:  228x493
+[761.611ms: hpc2470 (P26)]: -- done --
+
+[766.678ms: hpc2470 (P27)]: Sent image segment bordered by: (912,986) and (1139,1478). Size:  228x493
+[766.733ms: hpc2470 (P27)]: -- done --
+
+[772.851ms: hpc2472 (P28)]: Sent image segment bordered by: (912,1479) and (1139,1971). Size:  228x493
+[772.911ms: hpc2472 (P28)]: -- done --
+
+[778.062ms: hpc2472 (P29)]: Sent image segment bordered by: (912,1972) and (1139,2464). Size:  228x493
+[778.118ms: hpc2472 (P29)]: -- done --
+
+[783.873ms: hpc2473 (P30)]: Sent image segment bordered by: (912,2465) and (1139,2952). Size:  228x488
+[783.933ms: hpc2473 (P30)]: -- done --
+
+[789.532ms: hpc2473 (P31)]: Sent image segment bordered by: (1140,0) and (1363,492). Size:  224x493
+[789.596ms: hpc2473 (P31)]: -- done --
+
+[797.829ms: hpc2357 (P1)]: Received image segment bordered by: (1138,491) and (1363,988). Size:  226x498
+[803.639ms: hpc2358 (P2)]: Received image segment bordered by: (1138,984) and (1363,1481). Size:  226x498
+[808.209ms: hpc2358 (P3)]: Received image segment bordered by: (1138,1477) and (1363,1974). Size:  226x498
+[812.888ms: hpc2360 (P4)]: Received image segment bordered by: (1138,1970) and (1363,2467). Size:  226x498
+[817.236ms: hpc2360 (P5)]: Received image segment bordered by: (1138,2463) and (1363,2952). Size:  226x490
+[889.662ms: hpc2357 (P1)]: Sent image segment bordered by: (1140,493) and (1363,985). Size:  224x493
+[889.716ms: hpc2357 (P1)]: -- done --
+
+[897.862ms: hpc2358 (P2)]: Sent image segment bordered by: (1140,986) and (1363,1478). Size:  224x493
+[897.919ms: hpc2358 (P2)]: -- done --
+
+[903.225ms: hpc2358 (P3)]: Sent image segment bordered by: (1140,1479) and (1363,1971). Size:  224x493
+[903.286ms: hpc2358 (P3)]: -- done --
+
+[909.431ms: hpc2360 (P4)]: Sent image segment bordered by: (1140,1972) and (1363,2464). Size:  224x493
+[909.484ms: hpc2360 (P4)]: -- done --
+
+[914.847ms: hpc2360 (P5)]: Sent image segment bordered by: (1140,2465) and (1363,2952). Size:  224x488
+[914.906ms: hpc2360 (P5)]: -- done --
+
+[918.613ms: hpc2357 (P0)]: Saving image: p_moon_fmean_w5_n32.tiff
+[1543.46ms: hpc2357 (P0)]: -- done --
+
+ ----------------------------------------------
+* doing serial image filtering ** 
+* reading regular tiff: ./input/moon_in.tiff
+* processing with filter: mean
+* saving image: s_moon_fmean_w5_n32.tiff
+-- done --
+s_moon_fmean_w5_n32.tiff is the same as p_moon_fmean_w5_n32.tiff
+ ----------------------------------------------
+-----------------------------------------------
+Filter = mean
+Window Size = 8
+Maximum processors available = 32
+Number of processes 32
+ ----------------------------------------------
+[0ms: hpc2366 (P16)]: Processing with filter: mean and window size:8
+
+ ----------------------------------------------
+[0ms: hpc2364 (P12)]: Processing with filter: mean and window size:8
+
+ ----------------------------------------------
+ ----------------------------------------------
+[0ms: hpc2358 (P2)]: Processing with filter: mean and window size:8
+
+ ----------------------------------------------
+[0ms: hpc2358 (P3)]: Processing with filter: mean and window size:8
+
+ ----------------------------------------------
+[0ms: hpc2363 (P10)]: Processing with filter: mean and window size:8
+
+ ----------------------------------------------
+[0ms: hpc2363 (P11)]: Processing with filter: mean and window size:8
+
+ ----------------------------------------------
+[0ms: hpc2357 (P0)]: Processing with filter: mean and window size:8
+
+[0ms: hpc2357 (P0)]: * doing parallel image filtering ** 
+[0ms: hpc2357 (P0)]: * reading regular tiff: ./input/moon_in.tiff
+ ----------------------------------------------
+[0ms: hpc2370 (P24)]: Processing with filter: mean and window size:8
+
+ ----------------------------------------------
+[0ms: hpc2370 (P25)]: Processing with filter: mean and window size:8
+
+ ----------------------------------------------
+ ----------------------------------------------
+[0ms: hpc2368 (P20)]: Processing with filter: mean and window size:8
+
+ ----------------------------------------------
+[0ms: hpc2367 (P18)]: Processing with filter: mean and window size:8
+
+ ----------------------------------------------
+[0ms: hpc2369 (P22)]: Processing with filter: mean and window size:8
+
+[0ms: hpc2357 (P1)]: Processing with filter: mean and window size:8
+
+ ----------------------------------------------
+[0ms: hpc2369 (P23)]: Processing with filter: mean and window size:8
+
+ ----------------------------------------------
+[0ms: hpc2367 (P19)]: Processing with filter: mean and window size:8
+
+ ----------------------------------------------
+[0ms: hpc2360 (P4)]: Processing with filter: mean and window size:8
+
+ ----------------------------------------------
+[0ms: hpc2360 (P5)]: Processing with filter: mean and window size:8
+
+[0ms: hpc2366 (P17)]: Processing with filter: mean and window size:8
+
+ ----------------------------------------------
+[0ms: hpc2361 (P6)]: Processing with filter: mean and window size:8
+
+ ----------------------------------------------
+[0ms: hpc2473 (P30)]: Processing with filter: mean and window size:8
+
+ ----------------------------------------------
+[0ms: hpc2362 (P8)]: Processing with filter: mean and window size:8
+
+ ----------------------------------------------
+[0ms: hpc2361 (P7)]: Processing with filter: mean and window size:8
+
+ ----------------------------------------------
+[0ms: hpc2473 (P31)]: Processing with filter: mean and window size:8
+
+ ----------------------------------------------
+[0ms: hpc2362 (P9)]: Processing with filter: mean and window size:8
+
+ ----------------------------------------------
+[0ms: hpc2364 (P13)]: Processing with filter: mean and window size:8
+
+ ----------------------------------------------
+[0ms: hpc2470 (P26)]: Processing with filter: mean and window size:8
+
+ ----------------------------------------------
+[0ms: hpc2365 (P14)]: Processing with filter: mean and window size:8
+
+ ----------------------------------------------
+[0ms: hpc2470 (P27)]: Processing with filter: mean and window size:8
+
+ ----------------------------------------------
+[0ms: hpc2365 (P15)]: Processing with filter: mean and window size:8
+
+ ----------------------------------------------
+[0ms: hpc2472 (P28)]: Processing with filter: mean and window size:8
+
+ ----------------------------------------------
+[0ms: hpc2472 (P29)]: Processing with filter: mean and window size:8
+
+ ----------------------------------------------
+[0ms: hpc2368 (P21)]: Processing with filter: mean and window size:8
+
+[469.964ms: hpc2357 (P1)]: Received image segment bordered by: (0,0) and (231,496). Size:  232x497
+[476.008ms: hpc2358 (P2)]: Received image segment bordered by: (0,489) and (231,989). Size:  232x501
+[480.811ms: hpc2358 (P3)]: Received image segment bordered by: (0,982) and (231,1482). Size:  232x501
+[485.639ms: hpc2360 (P4)]: Received image segment bordered by: (0,1475) and (231,1975). Size:  232x501
+[490.376ms: hpc2360 (P5)]: Received image segment bordered by: (0,1968) and (231,2468). Size:  232x501
+[495.161ms: hpc2361 (P6)]: Received image segment bordered by: (0,2461) and (231,2952). Size:  232x492
+[500.065ms: hpc2361 (P7)]: Received image segment bordered by: (224,0) and (459,496). Size:  236x497
+[504.309ms: hpc2362 (P8)]: Received image segment bordered by: (224,489) and (459,989). Size:  236x501
+[509.222ms: hpc2362 (P9)]: Received image segment bordered by: (224,982) and (459,1482). Size:  236x501
+[514.783ms: hpc2363 (P10)]: Received image segment bordered by: (224,1475) and (459,1975). Size:  236x501
+[519.715ms: hpc2363 (P11)]: Received image segment bordered by: (224,1968) and (459,2468). Size:  236x501
+[524.923ms: hpc2364 (P12)]: Received image segment bordered by: (224,2461) and (459,2952). Size:  236x492
+[529.391ms: hpc2364 (P13)]: Received image segment bordered by: (452,0) and (687,496). Size:  236x497
+[534.175ms: hpc2365 (P14)]: Received image segment bordered by: (452,489) and (687,989). Size:  236x501
+[539.09ms: hpc2365 (P15)]: Received image segment bordered by: (452,982) and (687,1482). Size:  236x501
+[544.474ms: hpc2366 (P16)]: Received image segment bordered by: (452,1475) and (687,1975). Size:  236x501
+[549.419ms: hpc2366 (P17)]: Received image segment bordered by: (452,1968) and (687,2468). Size:  236x501
+[553.813ms: hpc2367 (P18)]: Received image segment bordered by: (452,2461) and (687,2952). Size:  236x492
+[558.626ms: hpc2367 (P19)]: Received image segment bordered by: (680,0) and (915,496). Size:  236x497
+[563.747ms: hpc2368 (P20)]: Received image segment bordered by: (680,489) and (915,989). Size:  236x501
+[567.936ms: hpc2368 (P21)]: Received image segment bordered by: (680,982) and (915,1482). Size:  236x501
+[573.721ms: hpc2369 (P22)]: Received image segment bordered by: (680,1475) and (915,1975). Size:  236x501
+[578.501ms: hpc2369 (P23)]: Received image segment bordered by: (680,1968) and (915,2468). Size:  236x501
+[583.649ms: hpc2370 (P24)]: Received image segment bordered by: (680,2461) and (915,2952). Size:  236x492
+[588.56ms: hpc2370 (P25)]: Received image segment bordered by: (908,0) and (1143,496). Size:  236x497
+[593.219ms: hpc2470 (P26)]: Received image segment bordered by: (908,489) and (1143,989). Size:  236x501
+[597.982ms: hpc2470 (P27)]: Received image segment bordered by: (908,982) and (1143,1482). Size:  236x501
+[603.144ms: hpc2472 (P28)]: Received image segment bordered by: (908,1475) and (1143,1975). Size:  236x501
+[608.026ms: hpc2472 (P29)]: Received image segment bordered by: (908,1968) and (1143,2468). Size:  236x501
+[612.617ms: hpc2473 (P30)]: Received image segment bordered by: (908,2461) and (1143,2952). Size:  236x492
+[617.483ms: hpc2473 (P31)]: Received image segment bordered by: (1136,0) and (1363,496). Size:  228x497
+[683.82ms: hpc2357 (P1)]: Sent image segment bordered by: (0,0) and (227,492). Size:  228x493
+[702.706ms: hpc2358 (P2)]: Sent image segment bordered by: (0,493) and (227,985). Size:  228x493
+[708.329ms: hpc2358 (P3)]: Sent image segment bordered by: (0,986) and (227,1478). Size:  228x493
+[713.939ms: hpc2360 (P4)]: Sent image segment bordered by: (0,1479) and (227,1971). Size:  228x493
+[719.571ms: hpc2360 (P5)]: Sent image segment bordered by: (0,1972) and (227,2464). Size:  228x493
+[725.111ms: hpc2361 (P6)]: Sent image segment bordered by: (0,2465) and (227,2952). Size:  228x488
+[725.169ms: hpc2361 (P6)]: -- done --
+
+[730.663ms: hpc2361 (P7)]: Sent image segment bordered by: (228,0) and (455,492). Size:  228x493
+[730.727ms: hpc2361 (P7)]: -- done --
+
+[746.565ms: hpc2362 (P8)]: Sent image segment bordered by: (228,493) and (455,985). Size:  228x493
+[746.627ms: hpc2362 (P8)]: -- done --
+
+[752.226ms: hpc2362 (P9)]: Sent image segment bordered by: (228,986) and (455,1478). Size:  228x493
+[752.289ms: hpc2362 (P9)]: -- done --
+
+[758.44ms: hpc2363 (P10)]: Sent image segment bordered by: (228,1479) and (455,1971). Size:  228x493
+[758.506ms: hpc2363 (P10)]: -- done --
+
+[764.29ms: hpc2363 (P11)]: Sent image segment bordered by: (228,1972) and (455,2464). Size:  228x493
+[764.355ms: hpc2363 (P11)]: -- done --
+
+[770.246ms: hpc2364 (P12)]: Sent image segment bordered by: (228,2465) and (455,2952). Size:  228x488
+[770.304ms: hpc2364 (P12)]: -- done --
+
+[775.497ms: hpc2364 (P13)]: Sent image segment bordered by: (456,0) and (683,492). Size:  228x493
+[775.558ms: hpc2364 (P13)]: -- done --
+
+[781.023ms: hpc2365 (P14)]: Sent image segment bordered by: (456,493) and (683,985). Size:  228x493
+[781.082ms: hpc2365 (P14)]: -- done --
+
+[786.735ms: hpc2365 (P15)]: Sent image segment bordered by: (456,986) and (683,1478). Size:  228x493
+[786.798ms: hpc2365 (P15)]: -- done --
+
+[792.758ms: hpc2366 (P16)]: Sent image segment bordered by: (456,1479) and (683,1971). Size:  228x493
+[792.819ms: hpc2366 (P16)]: -- done --
+
+[798.392ms: hpc2366 (P17)]: Sent image segment bordered by: (456,1972) and (683,2464). Size:  228x493
+[798.468ms: hpc2366 (P17)]: -- done --
+
+[803.501ms: hpc2367 (P18)]: Sent image segment bordered by: (456,2465) and (683,2952). Size:  228x488
+[803.559ms: hpc2367 (P18)]: -- done --
+
+[809.038ms: hpc2367 (P19)]: Sent image segment bordered by: (684,0) and (911,492). Size:  228x493
+[809.103ms: hpc2367 (P19)]: -- done --
+
+[814.811ms: hpc2368 (P20)]: Sent image segment bordered by: (684,493) and (911,985). Size:  228x493
+[814.874ms: hpc2368 (P20)]: -- done --
+
+[819.764ms: hpc2368 (P21)]: Sent image segment bordered by: (684,986) and (911,1478). Size:  228x493
+[819.821ms: hpc2368 (P21)]: -- done --
+
+[826.196ms: hpc2369 (P22)]: Sent image segment bordered by: (684,1479) and (911,1971). Size:  228x493
+[826.256ms: hpc2369 (P22)]: -- done --
+
+[831.77ms: hpc2369 (P23)]: Sent image segment bordered by: (684,1972) and (911,2464). Size:  228x493
+[831.833ms: hpc2369 (P23)]: -- done --
+
+[837.621ms: hpc2370 (P24)]: Sent image segment bordered by: (684,2465) and (911,2952). Size:  228x488
+[837.679ms: hpc2370 (P24)]: -- done --
+
+[843.251ms: hpc2370 (P25)]: Sent image segment bordered by: (912,0) and (1139,492). Size:  228x493
+[843.313ms: hpc2370 (P25)]: -- done --
+
+[848.679ms: hpc2470 (P26)]: Sent image segment bordered by: (912,493) and (1139,985). Size:  228x493
+[848.737ms: hpc2470 (P26)]: -- done --
+
+[854.298ms: hpc2470 (P27)]: Sent image segment bordered by: (912,986) and (1139,1478). Size:  228x493
+[854.34ms: hpc2470 (P27)]: -- done --
+
+[860.207ms: hpc2472 (P28)]: Sent image segment bordered by: (912,1479) and (1139,1971). Size:  228x493
+[860.269ms: hpc2472 (P28)]: -- done --
+
+[865.881ms: hpc2472 (P29)]: Sent image segment bordered by: (912,1972) and (1139,2464). Size:  228x493
+[865.948ms: hpc2472 (P29)]: -- done --
+
+[871.184ms: hpc2473 (P30)]: Sent image segment bordered by: (912,2465) and (1139,2952). Size:  228x488
+[871.244ms: hpc2473 (P30)]: -- done --
+
+[876.884ms: hpc2473 (P31)]: Sent image segment bordered by: (1140,0) and (1363,492). Size:  224x493
+[876.948ms: hpc2473 (P31)]: -- done --
+
+[884.603ms: hpc2357 (P1)]: Received image segment bordered by: (1136,489) and (1363,989). Size:  228x501
+[890.246ms: hpc2358 (P2)]: Received image segment bordered by: (1136,982) and (1363,1482). Size:  228x501
+[894.801ms: hpc2358 (P3)]: Received image segment bordered by: (1136,1475) and (1363,1975). Size:  228x501
+[899.348ms: hpc2360 (P4)]: Received image segment bordered by: (1136,1968) and (1363,2468). Size:  228x501
+[903.861ms: hpc2360 (P5)]: Received image segment bordered by: (1136,2461) and (1363,2952). Size:  228x492
+[1107.69ms: hpc2357 (P1)]: Sent image segment bordered by: (1140,493) and (1363,985). Size:  224x493
+[1107.74ms: hpc2357 (P1)]: -- done --
+
+[1112.42ms: hpc2358 (P2)]: Sent image segment bordered by: (1140,986) and (1363,1478). Size:  224x493
+[1112.47ms: hpc2358 (P2)]: -- done --
+
+[1117.77ms: hpc2358 (P3)]: Sent image segment bordered by: (1140,1479) and (1363,1971). Size:  224x493
+[1117.82ms: hpc2358 (P3)]: -- done --
+
+[1123.1ms: hpc2360 (P4)]: Sent image segment bordered by: (1140,1972) and (1363,2464). Size:  224x493
+[1123.16ms: hpc2360 (P4)]: -- done --
+
+[1128.49ms: hpc2360 (P5)]: Sent image segment bordered by: (1140,2465) and (1363,2952). Size:  224x488
+[1128.55ms: hpc2360 (P5)]: -- done --
+
+[1132.19ms: hpc2357 (P0)]: Saving image: p_moon_fmean_w8_n32.tiff
+[1665.34ms: hpc2357 (P0)]: -- done --
+
+ ----------------------------------------------
+* doing serial image filtering ** 
+* reading regular tiff: ./input/moon_in.tiff
+* processing with filter: mean
+* saving image: s_moon_fmean_w8_n32.tiff
+-- done --
+s_moon_fmean_w8_n32.tiff is the same as p_moon_fmean_w8_n32.tiff
+ ----------------------------------------------
+-----------------------------------------------
+Filter = mean
+Window Size = 13
+Maximum processors available = 32
+Number of processes 32
+ ----------------------------------------------
+[0ms: hpc2357 (P0)]: Processing with filter: mean and window size:13
+
+[0ms: hpc2357 (P0)]: * doing parallel image filtering ** 
+[0ms: hpc2357 (P0)]: * reading regular tiff: ./input/moon_in.tiff
+ ----------------------------------------------
+[0ms: hpc2357 (P1)]: Processing with filter: mean and window size:13
+
+ ----------------------------------------------
+[0ms: hpc2368 (P20)]: Processing with filter: mean and window size:13
+
+ ----------------------------------------------
+[0ms: hpc2368 (P21)]: Processing with filter: mean and window size:13
+
+ ----------------------------------------------
+[0ms: hpc2360 (P4)]: Processing with filter: mean and window size:13
+
+ ----------------------------------------------
+[0ms: hpc2360 (P5)]: Processing with filter: mean and window size:13
+
+ ----------------------------------------------
+[0ms: hpc2361 (P6)]: Processing with filter: mean and window size:13
+
+ ----------------------------------------------
+[0ms: hpc2366 (P16)]: Processing with filter: mean and window size:13
+
+ ----------------------------------------------
+[0ms: hpc2361 (P7)]: Processing with filter: mean and window size:13
+
+ ----------------------------------------------
+[0ms: hpc2366 (P17)]: Processing with filter: mean and window size:13
+
+ ----------------------------------------------
+[0ms: hpc2362 (P8)]: Processing with filter: mean and window size:13
+
+ ----------------------------------------------
+[0ms: hpc2362 (P9)]: Processing with filter: mean and window size:13
+
+ ----------------------------------------------
+[0ms: hpc2363 (P10)]: Processing with filter: mean and window size:13
+
+ ----------------------------------------------
+[0ms: hpc2363 (P11)]: Processing with filter: mean and window size:13
+
+ ----------------------------------------------
+[0ms: hpc2370 (P24)]: Processing with filter: mean and window size:13
+
+ ----------------------------------------------
+[0ms: hpc2370 (P25)]: Processing with filter: mean and window size:13
+
+ ----------------------------------------------
+[0ms: hpc2367 (P18)]: Processing with filter: mean and window size:13
+
+ ----------------------------------------------
+[0ms: hpc2367 (P19)]: Processing with filter: mean and window size:13
+
+ ----------------------------------------------
+[0ms: hpc2473 (P30)]: Processing with filter: mean and window size:13
+
+ ----------------------------------------------
+[0ms: hpc2473 (P31)]: Processing with filter: mean and window size:13
+
+ ----------------------------------------------
+[0ms: hpc2364 (P12)]: Processing with filter: mean and window size:13
+
+ ----------------------------------------------
+[0ms: hpc2470 (P26)]: Processing with filter: mean and window size:13
+
+ ----------------------------------------------
+[0ms: hpc2365 (P14)]: Processing with filter: mean and window size:13
+
+ ----------------------------------------------
+[0ms: hpc2364 (P13)]: Processing with filter: mean and window size:13
+
+ ----------------------------------------------
+[0ms: hpc2365 (P15)]: Processing with filter: mean and window size:13
+
+ ----------------------------------------------
+[0ms: hpc2470 (P27)]: Processing with filter: mean and window size:13
+
+ ----------------------------------------------
+[0ms: hpc2472 (P28)]: Processing with filter: mean and window size:13
+
+ ----------------------------------------------
+[0ms: hpc2472 (P29)]: Processing with filter: mean and window size:13
+
+ ----------------------------------------------
+[0ms: hpc2358 (P2)]: Processing with filter: mean and window size:13
+
+ ----------------------------------------------
+[0ms: hpc2358 (P3)]: Processing with filter: mean and window size:13
+
+ ----------------------------------------------
+[0ms: hpc2369 (P22)]: Processing with filter: mean and window size:13
+
+ ----------------------------------------------
+[0ms: hpc2369 (P23)]: Processing with filter: mean and window size:13
+
+[473.892ms: hpc2357 (P1)]: Received image segment bordered by: (0,0) and (234,499). Size:  235x500
+[477.006ms: hpc2358 (P2)]: Received image segment bordered by: (0,487) and (234,992). Size:  235x506
+[481.971ms: hpc2358 (P3)]: Received image segment bordered by: (0,980) and (234,1485). Size:  235x506
+[489.343ms: hpc2360 (P4)]: Received image segment bordered by: (0,1473) and (234,1978). Size:  235x506
+[494.181ms: hpc2360 (P5)]: Received image segment bordered by: (0,1966) and (234,2471). Size:  235x506
+[498.903ms: hpc2361 (P6)]: Received image segment bordered by: (0,2459) and (234,2952). Size:  235x494
+[503.842ms: hpc2361 (P7)]: Received image segment bordered by: (222,0) and (462,499). Size:  241x500
+[509.074ms: hpc2362 (P8)]: Received image segment bordered by: (222,487) and (462,992). Size:  241x506
+[514.089ms: hpc2362 (P9)]: Received image segment bordered by: (222,980) and (462,1485). Size:  241x506
+[518.287ms: hpc2363 (P10)]: Received image segment bordered by: (222,1473) and (462,1978). Size:  241x506
+[523.236ms: hpc2363 (P11)]: Received image segment bordered by: (222,1966) and (462,2471). Size:  241x506
+[528.256ms: hpc2364 (P12)]: Received image segment bordered by: (222,2459) and (462,2952). Size:  241x494
+[533.182ms: hpc2364 (P13)]: Received image segment bordered by: (450,0) and (690,499). Size:  241x500
+[538.092ms: hpc2365 (P14)]: Received image segment bordered by: (450,487) and (690,992). Size:  241x506
+[543.063ms: hpc2365 (P15)]: Received image segment bordered by: (450,980) and (690,1485). Size:  241x506
+[549.139ms: hpc2366 (P16)]: Received image segment bordered by: (450,1473) and (690,1978). Size:  241x506
+[554.234ms: hpc2366 (P17)]: Received image segment bordered by: (450,1966) and (690,2471). Size:  241x506
+[558.277ms: hpc2367 (P18)]: Received image segment bordered by: (450,2459) and (690,2952). Size:  241x494
+[563.127ms: hpc2367 (P19)]: Received image segment bordered by: (678,0) and (918,499). Size:  241x500
+[569.02ms: hpc2368 (P20)]: Received image segment bordered by: (678,487) and (918,992). Size:  241x506
+[573.832ms: hpc2368 (P21)]: Received image segment bordered by: (678,980) and (918,1485). Size:  241x506
+[577.662ms: hpc2369 (P22)]: Received image segment bordered by: (678,1473) and (918,1978). Size:  241x506
+[582.644ms: hpc2369 (P23)]: Received image segment bordered by: (678,1966) and (918,2471). Size:  241x506
+[588.133ms: hpc2370 (P24)]: Received image segment bordered by: (678,2459) and (918,2952). Size:  241x494
+[593.002ms: hpc2370 (P25)]: Received image segment bordered by: (906,0) and (1146,499). Size:  241x500
+[597.848ms: hpc2470 (P26)]: Received image segment bordered by: (906,487) and (1146,992). Size:  241x506
+[602.825ms: hpc2470 (P27)]: Received image segment bordered by: (906,980) and (1146,1485). Size:  241x506
+[607.83ms: hpc2472 (P28)]: Received image segment bordered by: (906,1473) and (1146,1978). Size:  241x506
+[612.818ms: hpc2472 (P29)]: Received image segment bordered by: (906,1966) and (1146,2471). Size:  241x506
+[617.594ms: hpc2473 (P30)]: Received image segment bordered by: (906,2459) and (1146,2952). Size:  241x494
+[622.556ms: hpc2473 (P31)]: Received image segment bordered by: (1134,0) and (1363,499). Size:  230x500
+[1024.58ms: hpc2357 (P1)]: Sent image segment bordered by: (0,0) and (227,492). Size:  228x493
+[1026.41ms: hpc2358 (P2)]: Sent image segment bordered by: (0,493) and (227,985). Size:  228x493
+[1032.23ms: hpc2358 (P3)]: Sent image segment bordered by: (0,986) and (227,1478). Size:  228x493
+[1040.37ms: hpc2360 (P4)]: Sent image segment bordered by: (0,1479) and (227,1971). Size:  228x493
+[1046.05ms: hpc2360 (P5)]: Sent image segment bordered by: (0,1972) and (227,2464). Size:  228x493
+[1051.69ms: hpc2361 (P6)]: Sent image segment bordered by: (0,2465) and (227,2952). Size:  228x488
+[1051.75ms: hpc2361 (P6)]: -- done --
+
+[1057.26ms: hpc2361 (P7)]: Sent image segment bordered by: (228,0) and (455,492). Size:  228x493
+[1057.33ms: hpc2361 (P7)]: -- done --
+
+[1063.07ms: hpc2362 (P8)]: Sent image segment bordered by: (228,493) and (455,985). Size:  228x493
+[1063.13ms: hpc2362 (P8)]: -- done --
+
+[1068.83ms: hpc2362 (P9)]: Sent image segment bordered by: (228,986) and (455,1478). Size:  228x493
+[1068.9ms: hpc2362 (P9)]: -- done --
+
+[1073.63ms: hpc2363 (P10)]: Sent image segment bordered by: (228,1479) and (455,1971). Size:  228x493
+[1073.69ms: hpc2363 (P10)]: -- done --
+
+[1079.25ms: hpc2363 (P11)]: Sent image segment bordered by: (228,1972) and (455,2464). Size:  228x493
+[1079.31ms: hpc2363 (P11)]: -- done --
+
+[1084.94ms: hpc2364 (P12)]: Sent image segment bordered by: (228,2465) and (455,2952). Size:  228x488
+[1085ms: hpc2364 (P12)]: -- done --
+
+[1090.55ms: hpc2364 (P13)]: Sent image segment bordered by: (456,0) and (683,492). Size:  228x493
+[1090.61ms: hpc2364 (P13)]: -- done --
+
+[1096.15ms: hpc2365 (P14)]: Sent image segment bordered by: (456,493) and (683,985). Size:  228x493
+[1096.22ms: hpc2365 (P14)]: -- done --
+
+[1101.89ms: hpc2365 (P15)]: Sent image segment bordered by: (456,986) and (683,1478). Size:  228x493
+[1101.95ms: hpc2365 (P15)]: -- done --
+
+[1108.65ms: hpc2366 (P16)]: Sent image segment bordered by: (456,1479) and (683,1971). Size:  228x493
+[1108.71ms: hpc2366 (P16)]: -- done --
+
+[1114.6ms: hpc2366 (P17)]: Sent image segment bordered by: (456,1972) and (683,2464). Size:  228x493
+[1114.66ms: hpc2366 (P17)]: -- done --
+
+[1119.32ms: hpc2367 (P18)]: Sent image segment bordered by: (456,2465) and (683,2952). Size:  228x488
+[1119.37ms: hpc2367 (P18)]: -- done --
+
+[1124.89ms: hpc2367 (P19)]: Sent image segment bordered by: (684,0) and (911,492). Size:  228x493
+[1124.95ms: hpc2367 (P19)]: -- done --
+
+[1131.57ms: hpc2368 (P20)]: Sent image segment bordered by: (684,493) and (911,985). Size:  228x493
+[1131.63ms: hpc2368 (P20)]: -- done --
+
+[1137.09ms: hpc2368 (P21)]: Sent image segment bordered by: (684,986) and (911,1478). Size:  228x493
+[1137.16ms: hpc2368 (P21)]: -- done --
+
+[1141.64ms: hpc2369 (P22)]: Sent image segment bordered by: (684,1479) and (911,1971). Size:  228x493
+[1141.7ms: hpc2369 (P22)]: -- done --
+
+[1147.45ms: hpc2369 (P23)]: Sent image segment bordered by: (684,1972) and (911,2464). Size:  228x493
+[1147.51ms: hpc2369 (P23)]: -- done --
+
+[1153.71ms: hpc2370 (P24)]: Sent image segment bordered by: (684,2465) and (911,2952). Size:  228x488
+[1153.77ms: hpc2370 (P24)]: -- done --
+
+[1159.29ms: hpc2370 (P25)]: Sent image segment bordered by: (912,0) and (1139,492). Size:  228x493
+[1159.35ms: hpc2370 (P25)]: -- done --
+
+[1164.89ms: hpc2470 (P26)]: Sent image segment bordered by: (912,493) and (1139,985). Size:  228x493
+[1164.95ms: hpc2470 (P26)]: -- done --
+
+[1170.67ms: hpc2470 (P27)]: Sent image segment bordered by: (912,986) and (1139,1478). Size:  228x493
+[1170.74ms: hpc2470 (P27)]: -- done --
+
+[1176.36ms: hpc2472 (P28)]: Sent image segment bordered by: (912,1479) and (1139,1971). Size:  228x493
+[1176.42ms: hpc2472 (P28)]: -- done --
+
+[1182.16ms: hpc2472 (P29)]: Sent image segment bordered by: (912,1972) and (1139,2464). Size:  228x493
+[1182.23ms: hpc2472 (P29)]: -- done --
+
+[1187.65ms: hpc2473 (P30)]: Sent image segment bordered by: (912,2465) and (1139,2952). Size:  228x488
+[1187.71ms: hpc2473 (P30)]: -- done --
+
+[1193.48ms: hpc2473 (P31)]: Sent image segment bordered by: (1140,0) and (1363,492). Size:  224x493
+[1193.55ms: hpc2473 (P31)]: -- done --
+
+[1202.46ms: hpc2357 (P1)]: Received image segment bordered by: (1134,487) and (1363,992). Size:  230x506
+[1205.11ms: hpc2358 (P2)]: Received image segment bordered by: (1134,980) and (1363,1485). Size:  230x506
+[1209.71ms: hpc2358 (P3)]: Received image segment bordered by: (1134,1473) and (1363,1978). Size:  230x506
+[1216.9ms: hpc2360 (P4)]: Received image segment bordered by: (1134,1966) and (1363,2471). Size:  230x506
+[1221.48ms: hpc2360 (P5)]: Received image segment bordered by: (1134,2459) and (1363,2952). Size:  230x494
+[1736.41ms: hpc2357 (P1)]: Sent image segment bordered by: (1140,493) and (1363,985). Size:  224x493
+[1736.47ms: hpc2357 (P1)]: -- done --
+
+[1738.09ms: hpc2358 (P2)]: Sent image segment bordered by: (1140,986) and (1363,1478). Size:  224x493
+[1738.14ms: hpc2358 (P2)]: -- done --
+
+[1743.57ms: hpc2358 (P3)]: Sent image segment bordered by: (1140,1479) and (1363,1971). Size:  224x493
+[1743.63ms: hpc2358 (P3)]: -- done --
+
+[1751.52ms: hpc2360 (P4)]: Sent image segment bordered by: (1140,1972) and (1363,2464). Size:  224x493
+[1751.58ms: hpc2360 (P4)]: -- done --
+
+[1756.97ms: hpc2360 (P5)]: Sent image segment bordered by: (1140,2465) and (1363,2952). Size:  224x488
+[1757.04ms: hpc2360 (P5)]: -- done --
+
+[1761.41ms: hpc2357 (P0)]: Saving image: p_moon_fmean_w13_n32.tiff
+[2288.42ms: hpc2357 (P0)]: -- done --
+
+ ----------------------------------------------
+* doing serial image filtering ** 
+* reading regular tiff: ./input/moon_in.tiff
+* processing with filter: mean
+* saving image: s_moon_fmean_w13_n32.tiff
+-- done --
+s_moon_fmean_w13_n32.tiff is the same as p_moon_fmean_w13_n32.tiff
+ ----------------------------------------------
+-----------------------------------------------
+Filter = median
+Window Size = 3
+Maximum processors available = 32
+Number of processes 32
+ ----------------------------------------------
+[0ms: hpc2357 (P0)]: Processing with filter: median and window size:3
+
+[0ms: hpc2357 (P0)]: * doing parallel image filtering ** 
+[0ms: hpc2357 (P0)]: * reading regular tiff: ./input/moon_in.tiff
+ ----------------------------------------------
+[0ms: hpc2370 (P24)]: Processing with filter: median and window size:3
+
+ ----------------------------------------------
+ ----------------------------------------------
+[0ms: hpc2370 (P25)]: Processing with filter: median and window size:3
+
+ ----------------------------------------------
+[0ms: hpc2368 (P20)]: Processing with filter: median and window size:3
+
+ ----------------------------------------------
+[0ms: hpc2367 (P18)]: Processing with filter: median and window size:3
+
+ ----------------------------------------------
+[0ms: hpc2368 (P21)]: Processing with filter: median and window size:3
+
+ ----------------------------------------------
+[0ms: hpc2367 (P19)]: Processing with filter: median and window size:3
+
+[0ms: hpc2357 (P1)]: Processing with filter: median and window size:3
+
+ ----------------------------------------------
+[0ms: hpc2360 (P4)]: Processing with filter: median and window size:3
+
+ ----------------------------------------------
+[0ms: hpc2360 (P5)]: Processing with filter: median and window size:3
+
+ ----------------------------------------------
+[0ms: hpc2361 (P6)]: Processing with filter: median and window size:3
+
+ ----------------------------------------------
+[0ms: hpc2361 (P7)]: Processing with filter: median and window size:3
+
+ ----------------------------------------------
+[0ms: hpc2362 (P8)]: Processing with filter: median and window size:3
+
+ ----------------------------------------------
+[0ms: hpc2362 (P9)]: Processing with filter: median and window size:3
+
+ ----------------------------------------------
+[0ms: hpc2366 (P17)]: Processing with filter: median and window size:3
+
+ ----------------------------------------------
+[0ms: hpc2364 (P12)]: Processing with filter: median and window size:3
+
+ ----------------------------------------------
+[0ms: hpc2364 (P13)]: Processing with filter: median and window size:3
+
+ ----------------------------------------------
+[0ms: hpc2470 (P26)]: Processing with filter: median and window size:3
+
+ ----------------------------------------------
+[0ms: hpc2365 (P14)]: Processing with filter: median and window size:3
+
+ ----------------------------------------------
+[0ms: hpc2470 (P27)]: Processing with filter: median and window size:3
+
+ ----------------------------------------------
+[0ms: hpc2365 (P15)]: Processing with filter: median and window size:3
+
+ ----------------------------------------------
+[0ms: hpc2363 (P10)]: Processing with filter: median and window size:3
+
+ ----------------------------------------------
+[0ms: hpc2363 (P11)]: Processing with filter: median and window size:3
+
+ ----------------------------------------------
+[0ms: hpc2369 (P22)]: Processing with filter: median and window size:3
+
+ ----------------------------------------------
+[0ms: hpc2369 (P23)]: Processing with filter: median and window size:3
+
+ ----------------------------------------------
+[0ms: hpc2366 (P16)]: Processing with filter: median and window size:3
+
+ ----------------------------------------------
+[0ms: hpc2473 (P30)]: Processing with filter: median and window size:3
+
+ ----------------------------------------------
+[0ms: hpc2473 (P31)]: Processing with filter: median and window size:3
+
+ ----------------------------------------------
+[0ms: hpc2358 (P2)]: Processing with filter: median and window size:3
+
+ ----------------------------------------------
+[0ms: hpc2358 (P3)]: Processing with filter: median and window size:3
+
+ ----------------------------------------------
+[0ms: hpc2472 (P28)]: Processing with filter: median and window size:3
+
+ ----------------------------------------------
+[0ms: hpc2472 (P29)]: Processing with filter: median and window size:3
+
+[473.219ms: hpc2357 (P1)]: Received image segment bordered by: (0,0) and (229,494). Size:  230x495
+[476.356ms: hpc2358 (P2)]: Received image segment bordered by: (0,492) and (229,987). Size:  230x496
+[481.092ms: hpc2358 (P3)]: Received image segment bordered by: (0,985) and (229,1480). Size:  230x496
+[488.14ms: hpc2360 (P4)]: Received image segment bordered by: (0,1478) and (229,1973). Size:  230x496
+[492.873ms: hpc2360 (P5)]: Received image segment bordered by: (0,1971) and (229,2466). Size:  230x496
+[497.481ms: hpc2361 (P6)]: Received image segment bordered by: (0,2464) and (229,2952). Size:  230x489
+[502.274ms: hpc2361 (P7)]: Received image segment bordered by: (227,0) and (457,494). Size:  231x495
+[507.197ms: hpc2362 (P8)]: Received image segment bordered by: (227,492) and (457,987). Size:  231x496
+[511.852ms: hpc2362 (P9)]: Received image segment bordered by: (227,985) and (457,1480). Size:  231x496
+[516.485ms: hpc2363 (P10)]: Received image segment bordered by: (227,1478) and (457,1973). Size:  231x496
+[521.062ms: hpc2363 (P11)]: Received image segment bordered by: (227,1971) and (457,2466). Size:  231x496
+[525.789ms: hpc2364 (P12)]: Received image segment bordered by: (227,2464) and (457,2952). Size:  231x489
+[530.641ms: hpc2364 (P13)]: Received image segment bordered by: (455,0) and (685,494). Size:  231x495
+[535.378ms: hpc2365 (P14)]: Received image segment bordered by: (455,492) and (685,987). Size:  231x496
+[540.1ms: hpc2365 (P15)]: Received image segment bordered by: (455,985) and (685,1480). Size:  231x496
+[543.732ms: hpc2366 (P16)]: Received image segment bordered by: (455,1478) and (685,1973). Size:  231x496
+[549.829ms: hpc2366 (P17)]: Received image segment bordered by: (455,1971) and (685,2466). Size:  231x496
+[554.471ms: hpc2367 (P18)]: Received image segment bordered by: (455,2464) and (685,2952). Size:  231x489
+[559.266ms: hpc2367 (P19)]: Received image segment bordered by: (683,0) and (913,494). Size:  231x495
+[564.29ms: hpc2368 (P20)]: Received image segment bordered by: (683,492) and (913,987). Size:  231x496
+[568.981ms: hpc2368 (P21)]: Received image segment bordered by: (683,985) and (913,1480). Size:  231x496
+[573.103ms: hpc2369 (P22)]: Received image segment bordered by: (683,1478) and (913,1973). Size:  231x496
+[577.868ms: hpc2369 (P23)]: Received image segment bordered by: (683,1971) and (913,2466). Size:  231x496
+[583.185ms: hpc2370 (P24)]: Received image segment bordered by: (683,2464) and (913,2952). Size:  231x489
+[587.92ms: hpc2370 (P25)]: Received image segment bordered by: (911,0) and (1141,494). Size:  231x495
+[592.444ms: hpc2470 (P26)]: Received image segment bordered by: (911,492) and (1141,987). Size:  231x496
+[597.09ms: hpc2470 (P27)]: Received image segment bordered by: (911,985) and (1141,1480). Size:  231x496
+[601.815ms: hpc2472 (P28)]: Received image segment bordered by: (911,1478) and (1141,1973). Size:  231x496
+[606.269ms: hpc2472 (P29)]: Received image segment bordered by: (911,1971) and (1141,2466). Size:  231x496
+[610.893ms: hpc2473 (P30)]: Received image segment bordered by: (911,2464) and (1141,2952). Size:  231x489
+[615.601ms: hpc2473 (P31)]: Received image segment bordered by: (1139,0) and (1363,494). Size:  225x495
+[877.472ms: hpc2357 (P1)]: Sent image segment bordered by: (0,0) and (227,492). Size:  228x493
+[879.524ms: hpc2358 (P2)]: Sent image segment bordered by: (0,493) and (227,985). Size:  228x493
+[885.21ms: hpc2358 (P3)]: Sent image segment bordered by: (0,986) and (227,1478). Size:  228x493
+[893.188ms: hpc2360 (P4)]: Sent image segment bordered by: (0,1479) and (227,1971). Size:  228x493
+[899.077ms: hpc2360 (P5)]: Sent image segment bordered by: (0,1972) and (227,2464). Size:  228x493
+[904.525ms: hpc2361 (P6)]: Sent image segment bordered by: (0,2465) and (227,2952). Size:  228x488
+[904.586ms: hpc2361 (P6)]: -- done --
+
+[910.185ms: hpc2361 (P7)]: Sent image segment bordered by: (228,0) and (455,492). Size:  228x493
+[910.25ms: hpc2361 (P7)]: -- done --
+
+[915.989ms: hpc2362 (P8)]: Sent image segment bordered by: (228,493) and (455,985). Size:  228x493
+[916.052ms: hpc2362 (P8)]: -- done --
+
+[921.685ms: hpc2362 (P9)]: Sent image segment bordered by: (228,986) and (455,1478). Size:  228x493
+[921.748ms: hpc2362 (P9)]: -- done --
+
+[927.193ms: hpc2363 (P10)]: Sent image segment bordered by: (228,1479) and (455,1971). Size:  228x493
+[927.253ms: hpc2363 (P10)]: -- done --
+
+[932.765ms: hpc2363 (P11)]: Sent image segment bordered by: (228,1972) and (455,2464). Size:  228x493
+[932.839ms: hpc2363 (P11)]: -- done --
+
+[938.416ms: hpc2364 (P12)]: Sent image segment bordered by: (228,2465) and (455,2952). Size:  228x488
+[938.476ms: hpc2364 (P12)]: -- done --
+
+[944.181ms: hpc2364 (P13)]: Sent image segment bordered by: (456,0) and (683,492). Size:  228x493
+[944.238ms: hpc2364 (P13)]: -- done --
+
+[949.717ms: hpc2365 (P14)]: Sent image segment bordered by: (456,493) and (683,985). Size:  228x493
+[949.776ms: hpc2365 (P14)]: -- done --
+
+[955.413ms: hpc2365 (P15)]: Sent image segment bordered by: (456,986) and (683,1478). Size:  228x493
+[955.478ms: hpc2365 (P15)]: -- done --
+
+[959.949ms: hpc2366 (P16)]: Sent image segment bordered by: (456,1479) and (683,1971). Size:  228x493
+[960.012ms: hpc2366 (P16)]: -- done --
+
+[967.043ms: hpc2366 (P17)]: Sent image segment bordered by: (456,1972) and (683,2464). Size:  228x493
+[967.102ms: hpc2366 (P17)]: -- done --
+
+[972.512ms: hpc2367 (P18)]: Sent image segment bordered by: (456,2465) and (683,2952). Size:  228x488
+[972.577ms: hpc2367 (P18)]: -- done --
+
+[978.202ms: hpc2367 (P19)]: Sent image segment bordered by: (684,0) and (911,492). Size:  228x493
+[978.264ms: hpc2367 (P19)]: -- done --
+
+[984.071ms: hpc2368 (P20)]: Sent image segment bordered by: (684,493) and (911,985). Size:  228x493
+[984.129ms: hpc2368 (P20)]: -- done --
+
+[989.737ms: hpc2368 (P21)]: Sent image segment bordered by: (684,986) and (911,1478). Size:  228x493
+[989.799ms: hpc2368 (P21)]: -- done --
+
+[994.812ms: hpc2369 (P22)]: Sent image segment bordered by: (684,1479) and (911,1971). Size:  228x493
+[994.869ms: hpc2369 (P22)]: -- done --
+
+[1000.5ms: hpc2369 (P23)]: Sent image segment bordered by: (684,1972) and (911,2464). Size:  228x493
+[1000.57ms: hpc2369 (P23)]: -- done --
+
+[1006.66ms: hpc2370 (P24)]: Sent image segment bordered by: (684,2465) and (911,2952). Size:  228x488
+[1006.72ms: hpc2370 (P24)]: -- done --
+
+[1012.29ms: hpc2370 (P25)]: Sent image segment bordered by: (912,0) and (1139,492). Size:  228x493
+[1012.35ms: hpc2370 (P25)]: -- done --
+
+[1017.82ms: hpc2470 (P26)]: Sent image segment bordered by: (912,493) and (1139,985). Size:  228x493
+[1017.88ms: hpc2470 (P26)]: -- done --
+
+[1023.43ms: hpc2470 (P27)]: Sent image segment bordered by: (912,986) and (1139,1478). Size:  228x493
+[1023.5ms: hpc2470 (P27)]: -- done --
+
+[1029.11ms: hpc2472 (P28)]: Sent image segment bordered by: (912,1479) and (1139,1971). Size:  228x493
+[1029.16ms: hpc2472 (P28)]: -- done --
+
+[1034.6ms: hpc2472 (P29)]: Sent image segment bordered by: (912,1972) and (1139,2464). Size:  228x493
+[1034.66ms: hpc2472 (P29)]: -- done --
+
+[1040.14ms: hpc2473 (P30)]: Sent image segment bordered by: (912,2465) and (1139,2952). Size:  228x488
+[1040.21ms: hpc2473 (P30)]: -- done --
+
+[1045.87ms: hpc2473 (P31)]: Sent image segment bordered by: (1140,0) and (1363,492). Size:  224x493
+[1045.94ms: hpc2473 (P31)]: -- done --
+
+[1053.98ms: hpc2357 (P1)]: Received image segment bordered by: (1139,492) and (1363,987). Size:  225x496
+[1056.59ms: hpc2358 (P2)]: Received image segment bordered by: (1139,985) and (1363,1480). Size:  225x496
+[1061.21ms: hpc2358 (P3)]: Received image segment bordered by: (1139,1478) and (1363,1973). Size:  225x496
+[1067.96ms: hpc2360 (P4)]: Received image segment bordered by: (1139,1971) and (1363,2466). Size:  225x496
+[1072.46ms: hpc2360 (P5)]: Received image segment bordered by: (1139,2464) and (1363,2952). Size:  225x489
+[1409.22ms: hpc2357 (P1)]: Sent image segment bordered by: (1140,493) and (1363,985). Size:  224x493
+[1409.28ms: hpc2357 (P1)]: -- done --
+
+[1421.44ms: hpc2358 (P2)]: Sent image segment bordered by: (1140,986) and (1363,1478). Size:  224x493
+[1421.49ms: hpc2358 (P2)]: -- done --
+
+[1426.85ms: hpc2358 (P3)]: Sent image segment bordered by: (1140,1479) and (1363,1971). Size:  224x493
+[1426.91ms: hpc2358 (P3)]: -- done --
+
+[1434.55ms: hpc2360 (P4)]: Sent image segment bordered by: (1140,1972) and (1363,2464). Size:  224x493
+[1434.6ms: hpc2360 (P4)]: -- done --
+
+[1440.05ms: hpc2360 (P5)]: Sent image segment bordered by: (1140,2465) and (1363,2952). Size:  224x488
+[1440.11ms: hpc2360 (P5)]: -- done --
+
+[1444.26ms: hpc2357 (P0)]: Saving image: p_moon_fmedian_w3_n32.tiff
+[2036.09ms: hpc2357 (P0)]: -- done --
+
+ ----------------------------------------------
+* doing serial image filtering ** 
+* reading regular tiff: ./input/moon_in.tiff
+* processing with filter: median
+* saving image: s_moon_fmedian_w3_n32.tiff
+-- done --
+s_moon_fmedian_w3_n32.tiff is the same as p_moon_fmedian_w3_n32.tiff
+ ----------------------------------------------
+-----------------------------------------------
+Filter = median
+Window Size = 5
+Maximum processors available = 32
+Number of processes 32
+ ----------------------------------------------
+ ----------------------------------------------
+ ----------------------------------------------
+[0ms: hpc2370 (P24)]: Processing with filter: median and window size:5
+
+ ----------------------------------------------
+[0ms: hpc2370 (P25)]: Processing with filter: median and window size:5
+
+ ----------------------------------------------
+[0ms: hpc2369 (P22)]: Processing with filter: median and window size:5
+
+ ----------------------------------------------
+[0ms: hpc2369 (P23)]: Processing with filter: median and window size:5
+
+ ----------------------------------------------
+[0ms: hpc2473 (P30)]: Processing with filter: median and window size:5
+
+ ----------------------------------------------
+[0ms: hpc2473 (P31)]: Processing with filter: median and window size:5
+
+ ----------------------------------------------
+[0ms: hpc2364 (P12)]: Processing with filter: median and window size:5
+
+ ----------------------------------------------
+[0ms: hpc2364 (P13)]: Processing with filter: median and window size:5
+
+ ----------------------------------------------
+[0ms: hpc2470 (P26)]: Processing with filter: median and window size:5
+
+ ----------------------------------------------
+[0ms: hpc2470 (P27)]: Processing with filter: median and window size:5
+
+ ----------------------------------------------
+[0ms: hpc2472 (P28)]: Processing with filter: median and window size:5
+
+ ----------------------------------------------
+[0ms: hpc2472 (P29)]: Processing with filter: median and window size:5
+
+ ----------------------------------------------
+[0ms: hpc2365 (P14)]: Processing with filter: median and window size:5
+
+[0ms: hpc2363 (P10)]: Processing with filter: median and window size:5
+
+[0ms: hpc2363 (P11)]: Processing with filter: median and window size:5
+
+ ----------------------------------------------
+[0ms: hpc2367 (P18)]: Processing with filter: median and window size:5
+
+ ----------------------------------------------
+[0ms: hpc2368 (P20)]: Processing with filter: median and window size:5
+
+ ----------------------------------------------
+[0ms: hpc2367 (P19)]: Processing with filter: median and window size:5
+
+ ----------------------------------------------
+[0ms: hpc2368 (P21)]: Processing with filter: median and window size:5
+
+ ----------------------------------------------
+[0ms: hpc2360 (P4)]: Processing with filter: median and window size:5
+
+ ----------------------------------------------
+[0ms: hpc2360 (P5)]: Processing with filter: median and window size:5
+
+ ----------------------------------------------
+[0ms: hpc2361 (P7)]: Processing with filter: median and window size:5
+
+ ----------------------------------------------
+[0ms: hpc2366 (P16)]: Processing with filter: median and window size:5
+
+ ----------------------------------------------
+[0ms: hpc2362 (P8)]: Processing with filter: median and window size:5
+
+ ----------------------------------------------
+[0ms: hpc2366 (P17)]: Processing with filter: median and window size:5
+
+ ----------------------------------------------
+[0ms: hpc2362 (P9)]: Processing with filter: median and window size:5
+
+ ----------------------------------------------
+[0ms: hpc2365 (P15)]: Processing with filter: median and window size:5
+
+ ----------------------------------------------
+[0ms: hpc2358 (P2)]: Processing with filter: median and window size:5
+
+ ----------------------------------------------
+[0ms: hpc2358 (P3)]: Processing with filter: median and window size:5
+
+ ----------------------------------------------
+[0ms: hpc2357 (P0)]: Processing with filter: median and window size:5
+
+[0ms: hpc2357 (P0)]: * doing parallel image filtering ** 
+[0ms: hpc2357 (P0)]: * reading regular tiff: ./input/moon_in.tiff
+ ----------------------------------------------
+[0ms: hpc2357 (P1)]: Processing with filter: median and window size:5
+
+ ----------------------------------------------
+[0ms: hpc2361 (P6)]: Processing with filter: median and window size:5
+
+[469.846ms: hpc2357 (P1)]: Received image segment bordered by: (0,0) and (230,495). Size:  231x496
+[476.284ms: hpc2358 (P2)]: Received image segment bordered by: (0,491) and (230,988). Size:  231x498
+[481.058ms: hpc2358 (P3)]: Received image segment bordered by: (0,984) and (230,1481). Size:  231x498
+[486.237ms: hpc2360 (P4)]: Received image segment bordered by: (0,1477) and (230,1974). Size:  231x498
+[491.069ms: hpc2360 (P5)]: Received image segment bordered by: (0,1970) and (230,2467). Size:  231x498
+[494.492ms: hpc2361 (P6)]: Received image segment bordered by: (0,2463) and (230,2952). Size:  231x490
+[500.648ms: hpc2361 (P7)]: Received image segment bordered by: (226,0) and (458,495). Size:  233x496
+[505.686ms: hpc2362 (P8)]: Received image segment bordered by: (226,491) and (458,988). Size:  233x498
+[510.454ms: hpc2362 (P9)]: Received image segment bordered by: (226,984) and (458,1481). Size:  233x498
+[516.154ms: hpc2363 (P10)]: Received image segment bordered by: (226,1477) and (458,1974). Size:  233x498
+[520.913ms: hpc2363 (P11)]: Received image segment bordered by: (226,1970) and (458,2467). Size:  233x498
+[525.873ms: hpc2364 (P12)]: Received image segment bordered by: (226,2463) and (458,2952). Size:  233x490
+[530.675ms: hpc2364 (P13)]: Received image segment bordered by: (454,0) and (686,495). Size:  233x496
+[535.316ms: hpc2365 (P14)]: Received image segment bordered by: (454,491) and (686,988). Size:  233x498
+[539.074ms: hpc2365 (P15)]: Received image segment bordered by: (454,984) and (686,1481). Size:  233x498
+[544.058ms: hpc2366 (P16)]: Received image segment bordered by: (454,1477) and (686,1974). Size:  233x498
+[548.836ms: hpc2366 (P17)]: Received image segment bordered by: (454,1970) and (686,2467). Size:  233x498
+[554.285ms: hpc2367 (P18)]: Received image segment bordered by: (454,2463) and (686,2952). Size:  233x490
+[559.047ms: hpc2367 (P19)]: Received image segment bordered by: (682,0) and (914,495). Size:  233x496
+[563.481ms: hpc2368 (P20)]: Received image segment bordered by: (682,491) and (914,988). Size:  233x498
+[568.355ms: hpc2368 (P21)]: Received image segment bordered by: (682,984) and (914,1481). Size:  233x498
+[574.004ms: hpc2369 (P22)]: Received image segment bordered by: (682,1477) and (914,1974). Size:  233x498
+[578.811ms: hpc2369 (P23)]: Received image segment bordered by: (682,1970) and (914,2467). Size:  233x498
+[583.848ms: hpc2370 (P24)]: Received image segment bordered by: (682,2463) and (914,2952). Size:  233x490
+[588.62ms: hpc2370 (P25)]: Received image segment bordered by: (910,0) and (1142,495). Size:  233x496
+[593.242ms: hpc2470 (P26)]: Received image segment bordered by: (910,491) and (1142,988). Size:  233x498
+[597.956ms: hpc2470 (P27)]: Received image segment bordered by: (910,984) and (1142,1481). Size:  233x498
+[602.919ms: hpc2472 (P28)]: Received image segment bordered by: (910,1477) and (1142,1974). Size:  233x498
+[607.662ms: hpc2472 (P29)]: Received image segment bordered by: (910,1970) and (1142,2467). Size:  233x498
+[612.257ms: hpc2473 (P30)]: Received image segment bordered by: (910,2463) and (1142,2952). Size:  233x490
+[616.978ms: hpc2473 (P31)]: Received image segment bordered by: (1138,0) and (1363,495). Size:  226x496
+[1325.72ms: hpc2357 (P1)]: Sent image segment bordered by: (0,0) and (227,492). Size:  228x493
+[1380.62ms: hpc2358 (P2)]: Sent image segment bordered by: (0,493) and (227,985). Size:  228x493
+[1386.26ms: hpc2358 (P3)]: Sent image segment bordered by: (0,986) and (227,1478). Size:  228x493
+[1392.17ms: hpc2360 (P4)]: Sent image segment bordered by: (0,1479) and (227,1971). Size:  228x493
+[1397.93ms: hpc2360 (P5)]: Sent image segment bordered by: (0,1972) and (227,2464). Size:  228x493
+[1402.17ms: hpc2361 (P6)]: Sent image segment bordered by: (0,2465) and (227,2952). Size:  228x488
+[1402.23ms: hpc2361 (P6)]: -- done --
+
+[1409.03ms: hpc2361 (P7)]: Sent image segment bordered by: (228,0) and (455,492). Size:  228x493
+[1409.09ms: hpc2361 (P7)]: -- done --
+
+[1414.81ms: hpc2362 (P8)]: Sent image segment bordered by: (228,493) and (455,985). Size:  228x493
+[1414.88ms: hpc2362 (P8)]: -- done --
+
+[1420.57ms: hpc2362 (P9)]: Sent image segment bordered by: (228,986) and (455,1478). Size:  228x493
+[1420.63ms: hpc2362 (P9)]: -- done --
+
+[1426.93ms: hpc2363 (P10)]: Sent image segment bordered by: (228,1479) and (455,1971). Size:  228x493
+[1427ms: hpc2363 (P10)]: -- done --
+
+[1432.51ms: hpc2363 (P11)]: Sent image segment bordered by: (228,1972) and (455,2464). Size:  228x493
+[1432.57ms: hpc2363 (P11)]: -- done --
+
+[1438.27ms: hpc2364 (P12)]: Sent image segment bordered by: (228,2465) and (455,2952). Size:  228x488
+[1438.33ms: hpc2364 (P12)]: -- done --
+
+[1443.88ms: hpc2364 (P13)]: Sent image segment bordered by: (456,0) and (683,492). Size:  228x493
+[1443.94ms: hpc2364 (P13)]: -- done --
+
+[1449.38ms: hpc2365 (P14)]: Sent image segment bordered by: (456,493) and (683,985). Size:  228x493
+[1449.45ms: hpc2365 (P14)]: -- done --
+
+[1454.06ms: hpc2365 (P15)]: Sent image segment bordered by: (456,986) and (683,1478). Size:  228x493
+[1454.13ms: hpc2365 (P15)]: -- done --
+
+[1459.87ms: hpc2366 (P16)]: Sent image segment bordered by: (456,1479) and (683,1971). Size:  228x493
+[1459.93ms: hpc2366 (P16)]: -- done --
+
+[1465.63ms: hpc2366 (P17)]: Sent image segment bordered by: (456,1972) and (683,2464). Size:  228x493
+[1465.69ms: hpc2366 (P17)]: -- done --
+
+[1471.88ms: hpc2367 (P18)]: Sent image segment bordered by: (456,2465) and (683,2952). Size:  228x488
+[1471.94ms: hpc2367 (P18)]: -- done --
+
+[1477.35ms: hpc2367 (P19)]: Sent image segment bordered by: (684,0) and (911,492). Size:  228x493
+[1477.41ms: hpc2367 (P19)]: -- done --
+
+[1482.57ms: hpc2368 (P20)]: Sent image segment bordered by: (684,493) and (911,985). Size:  228x493
+[1482.63ms: hpc2368 (P20)]: -- done --
+
+[1488.25ms: hpc2368 (P21)]: Sent image segment bordered by: (684,986) and (911,1478). Size:  228x493
+[1488.32ms: hpc2368 (P21)]: -- done --
+
+[1494.68ms: hpc2369 (P22)]: Sent image segment bordered by: (684,1479) and (911,1971). Size:  228x493
+[1494.74ms: hpc2369 (P22)]: -- done --
+
+[1500.37ms: hpc2369 (P23)]: Sent image segment bordered by: (684,1972) and (911,2464). Size:  228x493
+[1500.43ms: hpc2369 (P23)]: -- done --
+
+[1506.2ms: hpc2370 (P24)]: Sent image segment bordered by: (684,2465) and (911,2952). Size:  228x488
+[1506.27ms: hpc2370 (P24)]: -- done --
+
+[1511.81ms: hpc2370 (P25)]: Sent image segment bordered by: (912,0) and (1139,492). Size:  228x493
+[1511.87ms: hpc2370 (P25)]: -- done --
+
+[1517.28ms: hpc2470 (P26)]: Sent image segment bordered by: (912,493) and (1139,985). Size:  228x493
+[1517.33ms: hpc2470 (P26)]: -- done --
+
+[1522.91ms: hpc2470 (P27)]: Sent image segment bordered by: (912,986) and (1139,1478). Size:  228x493
+[1522.97ms: hpc2470 (P27)]: -- done --
+
+[1528.72ms: hpc2472 (P28)]: Sent image segment bordered by: (912,1479) and (1139,1971). Size:  228x493
+[1528.78ms: hpc2472 (P28)]: -- done --
+
+[1534.37ms: hpc2472 (P29)]: Sent image segment bordered by: (912,1972) and (1139,2464). Size:  228x493
+[1534.43ms: hpc2472 (P29)]: -- done --
+
+[1539.81ms: hpc2473 (P30)]: Sent image segment bordered by: (912,2465) and (1139,2952). Size:  228x488
+[1539.87ms: hpc2473 (P30)]: -- done --
+
+[1545.47ms: hpc2473 (P31)]: Sent image segment bordered by: (1140,0) and (1363,492). Size:  224x493
+[1545.53ms: hpc2473 (P31)]: -- done --
+
+[1551.28ms: hpc2357 (P1)]: Received image segment bordered by: (1138,491) and (1363,988). Size:  226x498
+[1557.34ms: hpc2358 (P2)]: Received image segment bordered by: (1138,984) and (1363,1481). Size:  226x498
+[1561.79ms: hpc2358 (P3)]: Received image segment bordered by: (1138,1477) and (1363,1974). Size:  226x498
+[1566.66ms: hpc2360 (P4)]: Received image segment bordered by: (1138,1970) and (1363,2467). Size:  226x498
+[1571.26ms: hpc2360 (P5)]: Received image segment bordered by: (1138,2463) and (1363,2952). Size:  226x490
+[2394.1ms: hpc2357 (P1)]: Sent image segment bordered by: (1140,493) and (1363,985). Size:  224x493
+[2394.16ms: hpc2357 (P1)]: -- done --
+
+[2404.03ms: hpc2358 (P2)]: Sent image segment bordered by: (1140,986) and (1363,1478). Size:  224x493
+[2404.1ms: hpc2358 (P2)]: -- done --
+
+[2409.41ms: hpc2358 (P3)]: Sent image segment bordered by: (1140,1479) and (1363,1971). Size:  224x493
+[2409.47ms: hpc2358 (P3)]: -- done --
+
+[2415.08ms: hpc2360 (P4)]: Sent image segment bordered by: (1140,1972) and (1363,2464). Size:  224x493
+[2415.13ms: hpc2360 (P4)]: -- done --
+
+[2420.62ms: hpc2360 (P5)]: Sent image segment bordered by: (1140,2465) and (1363,2952). Size:  224x488
+[2420.68ms: hpc2360 (P5)]: -- done --
+
+[2423.42ms: hpc2357 (P0)]: Saving image: p_moon_fmedian_w5_n32.tiff
+[2982.89ms: hpc2357 (P0)]: -- done --
+
+ ----------------------------------------------
+* doing serial image filtering ** 
+* reading regular tiff: ./input/moon_in.tiff
+* processing with filter: median
+* saving image: s_moon_fmedian_w5_n32.tiff
+-- done --
+s_moon_fmedian_w5_n32.tiff is the same as p_moon_fmedian_w5_n32.tiff
+ ----------------------------------------------
+-----------------------------------------------
+Filter = median
+Window Size = 8
+Maximum processors available = 32
+Number of processes 32
+ ----------------------------------------------
+[0ms: hpc2357 (P0)]: Processing with filter: median and window size:8
+
+[0ms: hpc2357 (P0)]: * doing parallel image filtering ** 
+[0ms: hpc2357 (P0)]: * reading regular tiff: ./input/moon_in.tiff
+ ----------------------------------------------
+[0ms: hpc2357 (P1)]: Processing with filter: median and window size:8
+
+ ----------------------------------------------
+[0ms: hpc2360 (P4)]: Processing with filter: median and window size:8
+
+ ----------------------------------------------
+[0ms: hpc2361 (P6)]: Processing with filter: median and window size:8
+
+ ----------------------------------------------
+[0ms: hpc2366 (P16)]: Processing with filter: median and window size:8
+
+ ----------------------------------------------
+[0ms: hpc2362 (P8)]: Processing with filter: median and window size:8
+
+ ----------------------------------------------
+[0ms: hpc2361 (P7)]: Processing with filter: median and window size:8
+
+ ----------------------------------------------
+[0ms: hpc2366 (P17)]: Processing with filter: median and window size:8
+
+ ----------------------------------------------
+[0ms: hpc2362 (P9)]: Processing with filter: median and window size:8
+
+ ----------------------------------------------
+[0ms: hpc2358 (P2)]: Processing with filter: median and window size:8
+
+ ----------------------------------------------
+[0ms: hpc2358 (P3)]: Processing with filter: median and window size:8
+
+ ----------------------------------------------
+[0ms: hpc2367 (P18)]: Processing with filter: median and window size:8
+
+ ----------------------------------------------
+ ----------------------------------------------
+[0ms: hpc2360 (P5)]: Processing with filter: median and window size:8
+
+ ----------------------------------------------
+[0ms: hpc2472 (P28)]: Processing with filter: median and window size:8
+
+ ----------------------------------------------
+[0ms: hpc2472 (P29)]: Processing with filter: median and window size:8
+
+ ----------------------------------------------
+[0ms: hpc2365 (P15)]: Processing with filter: median and window size:8
+
+[0ms: hpc2367 (P19)]: Processing with filter: median and window size:8
+
+ ----------------------------------------------
+[0ms: hpc2370 (P24)]: Processing with filter: median and window size:8
+
+ ----------------------------------------------
+[0ms: hpc2370 (P25)]: Processing with filter: median and window size:8
+
+ ----------------------------------------------
+[0ms: hpc2368 (P20)]: Processing with filter: median and window size:8
+
+ ----------------------------------------------
+[0ms: hpc2368 (P21)]: Processing with filter: median and window size:8
+
+ ----------------------------------------------
+[0ms: hpc2369 (P22)]: Processing with filter: median and window size:8
+
+ ----------------------------------------------
+[0ms: hpc2369 (P23)]: Processing with filter: median and window size:8
+
+ ----------------------------------------------
+[0ms: hpc2473 (P30)]: Processing with filter: median and window size:8
+
+ ----------------------------------------------
+[0ms: hpc2473 (P31)]: Processing with filter: median and window size:8
+
+ ----------------------------------------------
+[0ms: hpc2364 (P12)]: Processing with filter: median and window size:8
+
+ ----------------------------------------------
+[0ms: hpc2364 (P13)]: Processing with filter: median and window size:8
+
+ ----------------------------------------------
+[0ms: hpc2365 (P14)]: Processing with filter: median and window size:8
+
+ ----------------------------------------------
+[0ms: hpc2470 (P26)]: Processing with filter: median and window size:8
+
+ ----------------------------------------------
+[0ms: hpc2470 (P27)]: Processing with filter: median and window size:8
+
+ ----------------------------------------------
+[0ms: hpc2363 (P10)]: Processing with filter: median and window size:8
+
+ ----------------------------------------------
+[0ms: hpc2363 (P11)]: Processing with filter: median and window size:8
+
+[470.25ms: hpc2357 (P1)]: Received image segment bordered by: (0,0) and (231,496). Size:  232x497
+[474.939ms: hpc2358 (P2)]: Received image segment bordered by: (0,489) and (231,989). Size:  232x501
+[479.872ms: hpc2358 (P3)]: Received image segment bordered by: (0,982) and (231,1482). Size:  232x501
+[484.819ms: hpc2360 (P4)]: Received image segment bordered by: (0,1475) and (231,1975). Size:  232x501
+[489.205ms: hpc2360 (P5)]: Received image segment bordered by: (0,1968) and (231,2468). Size:  232x501
+[494.315ms: hpc2361 (P6)]: Received image segment bordered by: (0,2461) and (231,2952). Size:  232x492
+[499.218ms: hpc2361 (P7)]: Received image segment bordered by: (224,0) and (459,496). Size:  236x497
+[504.298ms: hpc2362 (P8)]: Received image segment bordered by: (224,489) and (459,989). Size:  236x501
+[509.208ms: hpc2362 (P9)]: Received image segment bordered by: (224,982) and (459,1482). Size:  236x501
+[513.02ms: hpc2363 (P10)]: Received image segment bordered by: (224,1475) and (459,1975). Size:  236x501
+[517.869ms: hpc2363 (P11)]: Received image segment bordered by: (224,1968) and (459,2468). Size:  236x501
+[521.878ms: hpc2364 (P12)]: Received image segment bordered by: (224,2461) and (459,2952). Size:  236x492
+[526.706ms: hpc2364 (P13)]: Received image segment bordered by: (452,0) and (687,496). Size:  236x497
+[531.59ms: hpc2365 (P14)]: Received image segment bordered by: (452,489) and (687,989). Size:  236x501
+[537.549ms: hpc2365 (P15)]: Received image segment bordered by: (452,982) and (687,1482). Size:  236x501
+[543.295ms: hpc2366 (P16)]: Received image segment bordered by: (452,1475) and (687,1975). Size:  236x501
+[548.165ms: hpc2366 (P17)]: Received image segment bordered by: (452,1968) and (687,2468). Size:  236x501
+[552.353ms: hpc2367 (P18)]: Received image segment bordered by: (452,2461) and (687,2952). Size:  236x492
+[556.908ms: hpc2367 (P19)]: Received image segment bordered by: (680,0) and (915,496). Size:  236x497
+[561.472ms: hpc2368 (P20)]: Received image segment bordered by: (680,489) and (915,989). Size:  236x501
+[566.281ms: hpc2368 (P21)]: Received image segment bordered by: (680,982) and (915,1482). Size:  236x501
+[571.221ms: hpc2369 (P22)]: Received image segment bordered by: (680,1475) and (915,1975). Size:  236x501
+[576.059ms: hpc2369 (P23)]: Received image segment bordered by: (680,1968) and (915,2468). Size:  236x501
+[580.656ms: hpc2370 (P24)]: Received image segment bordered by: (680,2461) and (915,2952). Size:  236x492
+[585.567ms: hpc2370 (P25)]: Received image segment bordered by: (908,0) and (1143,496). Size:  236x497
+[590.473ms: hpc2470 (P26)]: Received image segment bordered by: (908,489) and (1143,989). Size:  236x501
+[595.301ms: hpc2470 (P27)]: Received image segment bordered by: (908,982) and (1143,1482). Size:  236x501
+[600.907ms: hpc2472 (P28)]: Received image segment bordered by: (908,1475) and (1143,1975). Size:  236x501
+[605.604ms: hpc2472 (P29)]: Received image segment bordered by: (908,1968) and (1143,2468). Size:  236x501
+[610.227ms: hpc2473 (P30)]: Received image segment bordered by: (908,2461) and (1143,2952). Size:  236x492
+[614.987ms: hpc2473 (P31)]: Received image segment bordered by: (1136,0) and (1363,496). Size:  228x497
+[2562.39ms: hpc2357 (P1)]: Sent image segment bordered by: (0,0) and (227,492). Size:  228x493
+[2577.58ms: hpc2358 (P2)]: Sent image segment bordered by: (0,493) and (227,985). Size:  228x493
+[2583.38ms: hpc2358 (P3)]: Sent image segment bordered by: (0,986) and (227,1478). Size:  228x493
+[2589.25ms: hpc2360 (P4)]: Sent image segment bordered by: (0,1479) and (227,1971). Size:  228x493
+[2594.56ms: hpc2360 (P5)]: Sent image segment bordered by: (0,1972) and (227,2464). Size:  228x493
+[2600.65ms: hpc2361 (P6)]: Sent image segment bordered by: (0,2465) and (227,2952). Size:  228x488
+[2600.71ms: hpc2361 (P6)]: -- done --
+
+[2606.38ms: hpc2361 (P7)]: Sent image segment bordered by: (228,0) and (455,492). Size:  228x493
+[2606.44ms: hpc2361 (P7)]: -- done --
+
+[2612.27ms: hpc2362 (P8)]: Sent image segment bordered by: (228,493) and (455,985). Size:  228x493
+[2612.33ms: hpc2362 (P8)]: -- done --
+
+[2618.02ms: hpc2362 (P9)]: Sent image segment bordered by: (228,986) and (455,1478). Size:  228x493
+[2618.08ms: hpc2362 (P9)]: -- done --
+
+[2622.67ms: hpc2363 (P10)]: Sent image segment bordered by: (228,1479) and (455,1971). Size:  228x493
+[2622.73ms: hpc2363 (P10)]: -- done --
+
+[2628.4ms: hpc2363 (P11)]: Sent image segment bordered by: (228,1972) and (455,2464). Size:  228x493
+[2628.47ms: hpc2363 (P11)]: -- done --
+
+[2633.22ms: hpc2364 (P12)]: Sent image segment bordered by: (228,2465) and (455,2952). Size:  228x488
+[2633.28ms: hpc2364 (P12)]: -- done --
+
+[2638.89ms: hpc2364 (P13)]: Sent image segment bordered by: (456,0) and (683,492). Size:  228x493
+[2638.95ms: hpc2364 (P13)]: -- done --
+
+[2644.64ms: hpc2365 (P14)]: Sent image segment bordered by: (456,493) and (683,985). Size:  228x493
+[2644.71ms: hpc2365 (P14)]: -- done --
+
+[2651.51ms: hpc2365 (P15)]: Sent image segment bordered by: (456,986) and (683,1478). Size:  228x493
+[2651.57ms: hpc2365 (P15)]: -- done --
+
+[2657.98ms: hpc2366 (P16)]: Sent image segment bordered by: (456,1479) and (683,1971). Size:  228x493
+[2658.05ms: hpc2366 (P16)]: -- done --
+
+[2663.53ms: hpc2366 (P17)]: Sent image segment bordered by: (456,1972) and (683,2464). Size:  228x493
+[2663.59ms: hpc2366 (P17)]: -- done --
+
+[2668.56ms: hpc2367 (P18)]: Sent image segment bordered by: (456,2465) and (683,2952). Size:  228x488
+[2668.62ms: hpc2367 (P18)]: -- done --
+
+[2673.94ms: hpc2367 (P19)]: Sent image segment bordered by: (684,0) and (911,492). Size:  228x493
+[2674.01ms: hpc2367 (P19)]: -- done --
+
+[2679.38ms: hpc2368 (P20)]: Sent image segment bordered by: (684,493) and (911,985). Size:  228x493
+[2679.43ms: hpc2368 (P20)]: -- done --
+
+[2685.11ms: hpc2368 (P21)]: Sent image segment bordered by: (684,986) and (911,1478). Size:  228x493
+[2685.17ms: hpc2368 (P21)]: -- done --
+
+[2690.89ms: hpc2369 (P22)]: Sent image segment bordered by: (684,1479) and (911,1971). Size:  228x493
+[2690.94ms: hpc2369 (P22)]: -- done --
+
+[2696.61ms: hpc2369 (P23)]: Sent image segment bordered by: (684,1972) and (911,2464). Size:  228x493
+[2696.67ms: hpc2369 (P23)]: -- done --
+
+[2701.96ms: hpc2370 (P24)]: Sent image segment bordered by: (684,2465) and (911,2952). Size:  228x488
+[2702.01ms: hpc2370 (P24)]: -- done --
+
+[2707.62ms: hpc2370 (P25)]: Sent image segment bordered by: (912,0) and (1139,492). Size:  228x493
+[2707.68ms: hpc2370 (P25)]: -- done --
+
+[2713.34ms: hpc2470 (P26)]: Sent image segment bordered by: (912,493) and (1139,985). Size:  228x493
+[2713.4ms: hpc2470 (P26)]: -- done --
+
+[2719.08ms: hpc2470 (P27)]: Sent image segment bordered by: (912,986) and (1139,1478). Size:  228x493
+[2719.14ms: hpc2470 (P27)]: -- done --
+
+[2725.54ms: hpc2472 (P28)]: Sent image segment bordered by: (912,1479) and (1139,1971). Size:  228x493
+[2725.6ms: hpc2472 (P28)]: -- done --
+
+[2731.18ms: hpc2472 (P29)]: Sent image segment bordered by: (912,1972) and (1139,2464). Size:  228x493
+[2731.24ms: hpc2472 (P29)]: -- done --
+
+[2736.65ms: hpc2473 (P30)]: Sent image segment bordered by: (912,2465) and (1139,2952). Size:  228x488
+[2736.71ms: hpc2473 (P30)]: -- done --
+
+[2742.34ms: hpc2473 (P31)]: Sent image segment bordered by: (1140,0) and (1363,492). Size:  224x493
+[2742.41ms: hpc2473 (P31)]: -- done --
+
+[2751.72ms: hpc2357 (P1)]: Received image segment bordered by: (1136,489) and (1363,989). Size:  228x501
+[2756.01ms: hpc2358 (P2)]: Received image segment bordered by: (1136,982) and (1363,1482). Size:  228x501
+[2760.63ms: hpc2358 (P3)]: Received image segment bordered by: (1136,1475) and (1363,1975). Size:  228x501
+[2765.35ms: hpc2360 (P4)]: Received image segment bordered by: (1136,1968) and (1363,2468). Size:  228x501
+[2769.5ms: hpc2360 (P5)]: Received image segment bordered by: (1136,2461) and (1363,2952). Size:  228x492
+[4762.75ms: hpc2357 (P1)]: Sent image segment bordered by: (1140,493) and (1363,985). Size:  224x493
+[4762.81ms: hpc2357 (P1)]: -- done --
+
+[4766.19ms: hpc2358 (P2)]: Sent image segment bordered by: (1140,986) and (1363,1478). Size:  224x493
+[4766.26ms: hpc2358 (P2)]: -- done --
+
+[4771.74ms: hpc2358 (P3)]: Sent image segment bordered by: (1140,1479) and (1363,1971). Size:  224x493
+[4771.79ms: hpc2358 (P3)]: -- done --
+
+[4792.42ms: hpc2360 (P4)]: Sent image segment bordered by: (1140,1972) and (1363,2464). Size:  224x493
+[4792.48ms: hpc2360 (P4)]: -- done --
+
+[4797.51ms: hpc2360 (P5)]: Sent image segment bordered by: (1140,2465) and (1363,2952). Size:  224x488
+[4797.57ms: hpc2360 (P5)]: -- done --
+
+[4802.42ms: hpc2357 (P0)]: Saving image: p_moon_fmedian_w8_n32.tiff
+[5340.82ms: hpc2357 (P0)]: -- done --
+
+ ----------------------------------------------
+* doing serial image filtering ** 
+* reading regular tiff: ./input/moon_in.tiff
+* processing with filter: median
+* saving image: s_moon_fmedian_w8_n32.tiff
+-- done --
+s_moon_fmedian_w8_n32.tiff is the same as p_moon_fmedian_w8_n32.tiff
+ ----------------------------------------------
+-----------------------------------------------
+Filter = median
+Window Size = 13
+Maximum processors available = 32
+Number of processes 32
+ ----------------------------------------------
+ ----------------------------------------------
+ ----------------------------------------------
+[0ms: hpc2358 (P2)]: Processing with filter: median and window size:13
+
+ ----------------------------------------------
+ ----------------------------------------------
+[0ms: hpc2363 (P10)]: Processing with filter: median and window size:13
+
+ ----------------------------------------------
+ ----------------------------------------------
+[0ms: hpc2367 (P18)]: Processing with filter: median and window size:13
+
+ ----------------------------------------------
+[0ms: hpc2367 (P19)]: Processing with filter: median and window size:13
+
+ ----------------------------------------------
+[0ms: hpc2370 (P24)]: Processing with filter: median and window size:13
+
+ ----------------------------------------------
+[0ms: hpc2370 (P25)]: Processing with filter: median and window size:13
+
+ ----------------------------------------------
+[0ms: hpc2473 (P30)]: Processing with filter: median and window size:13
+
+[0ms: hpc2366 (P17)]: Processing with filter: median and window size:13
+
+[0ms: hpc2366 (P16)]: Processing with filter: median and window size:13
+
+ ----------------------------------------------
+ ----------------------------------------------
+[0ms: hpc2360 (P4)]: Processing with filter: median and window size:13
+
+ ----------------------------------------------
+[0ms: hpc2360 (P5)]: Processing with filter: median and window size:13
+
+ ----------------------------------------------
+[0ms: hpc2362 (P8)]: Processing with filter: median and window size:13
+
+ ----------------------------------------------
+[0ms: hpc2364 (P12)]: Processing with filter: median and window size:13
+
+ ----------------------------------------------
+[0ms: hpc2361 (P7)]: Processing with filter: median and window size:13
+
+ ----------------------------------------------
+[0ms: hpc2470 (P26)]: Processing with filter: median and window size:13
+
+ ----------------------------------------------
+[0ms: hpc2364 (P13)]: Processing with filter: median and window size:13
+
+ ----------------------------------------------
+[0ms: hpc2362 (P9)]: Processing with filter: median and window size:13
+
+[0ms: hpc2358 (P3)]: Processing with filter: median and window size:13
+
+ ----------------------------------------------
+[0ms: hpc2472 (P28)]: Processing with filter: median and window size:13
+
+ ----------------------------------------------
+[0ms: hpc2470 (P27)]: Processing with filter: median and window size:13
+
+ ----------------------------------------------
+[0ms: hpc2365 (P14)]: Processing with filter: median and window size:13
+
+[0ms: hpc2357 (P0)]: Processing with filter: median and window size:13
+
+[0ms: hpc2357 (P0)]: * doing parallel image filtering ** 
+[0ms: hpc2357 (P0)]: * reading regular tiff: ./input/moon_in.tiff
+ ----------------------------------------------
+[0ms: hpc2365 (P15)]: Processing with filter: median and window size:13
+
+ ----------------------------------------------
+[0ms: hpc2472 (P29)]: Processing with filter: median and window size:13
+
+[0ms: hpc2363 (P11)]: Processing with filter: median and window size:13
+
+ ----------------------------------------------
+[0ms: hpc2357 (P1)]: Processing with filter: median and window size:13
+
+ ----------------------------------------------
+ ----------------------------------------------
+ ----------------------------------------------
+[0ms: hpc2473 (P31)]: Processing with filter: median and window size:13
+
+ ----------------------------------------------
+[0ms: hpc2361 (P6)]: Processing with filter: median and window size:13
+
+[0ms: hpc2369 (P22)]: Processing with filter: median and window size:13
+
+[0ms: hpc2369 (P23)]: Processing with filter: median and window size:13
+
+ ----------------------------------------------
+[0ms: hpc2368 (P20)]: Processing with filter: median and window size:13
+
+ ----------------------------------------------
+[0ms: hpc2368 (P21)]: Processing with filter: median and window size:13
+
+[473.301ms: hpc2357 (P1)]: Received image segment bordered by: (0,0) and (234,499). Size:  235x500
+[479.882ms: hpc2358 (P2)]: Received image segment bordered by: (0,487) and (234,992). Size:  235x506
+[484.834ms: hpc2358 (P3)]: Received image segment bordered by: (0,980) and (234,1485). Size:  235x506
+[489.782ms: hpc2360 (P4)]: Received image segment bordered by: (0,1473) and (234,1978). Size:  235x506
+[494.6ms: hpc2360 (P5)]: Received image segment bordered by: (0,1966) and (234,2471). Size:  235x506
+[497.919ms: hpc2361 (P6)]: Received image segment bordered by: (0,2459) and (234,2952). Size:  235x494
+[504.011ms: hpc2361 (P7)]: Received image segment bordered by: (222,0) and (462,499). Size:  241x500
+[509.389ms: hpc2362 (P8)]: Received image segment bordered by: (222,487) and (462,992). Size:  241x506
+[514.354ms: hpc2362 (P9)]: Received image segment bordered by: (222,980) and (462,1485). Size:  241x506
+[519.22ms: hpc2363 (P10)]: Received image segment bordered by: (222,1473) and (462,1978). Size:  241x506
+[524.012ms: hpc2363 (P11)]: Received image segment bordered by: (222,1966) and (462,2471). Size:  241x506
+[529.364ms: hpc2364 (P12)]: Received image segment bordered by: (222,2459) and (462,2952). Size:  241x494
+[534.123ms: hpc2364 (P13)]: Received image segment bordered by: (450,0) and (690,499). Size:  241x500
+[538.988ms: hpc2365 (P14)]: Received image segment bordered by: (450,487) and (690,992). Size:  241x506
+[543.961ms: hpc2365 (P15)]: Received image segment bordered by: (450,980) and (690,1485). Size:  241x506
+[549.505ms: hpc2366 (P16)]: Received image segment bordered by: (450,1473) and (690,1978). Size:  241x506
+[554.361ms: hpc2366 (P17)]: Received image segment bordered by: (450,1966) and (690,2471). Size:  241x506
+[559.228ms: hpc2367 (P18)]: Received image segment bordered by: (450,2459) and (690,2952). Size:  241x494
+[563.974ms: hpc2367 (P19)]: Received image segment bordered by: (678,0) and (918,499). Size:  241x500
+[568.993ms: hpc2368 (P20)]: Received image segment bordered by: (678,487) and (918,992). Size:  241x506
+[573.851ms: hpc2368 (P21)]: Received image segment bordered by: (678,980) and (918,1485). Size:  241x506
+[577.539ms: hpc2369 (P22)]: Received image segment bordered by: (678,1473) and (918,1978). Size:  241x506
+[582.409ms: hpc2369 (P23)]: Received image segment bordered by: (678,1966) and (918,2471). Size:  241x506
+[589.092ms: hpc2370 (P24)]: Received image segment bordered by: (678,2459) and (918,2952). Size:  241x494
+[593.838ms: hpc2370 (P25)]: Received image segment bordered by: (906,0) and (1146,499). Size:  241x500
+[598.576ms: hpc2470 (P26)]: Received image segment bordered by: (906,487) and (1146,992). Size:  241x506
+[603.604ms: hpc2470 (P27)]: Received image segment bordered by: (906,980) and (1146,1485). Size:  241x506
+[608.786ms: hpc2472 (P28)]: Received image segment bordered by: (906,1473) and (1146,1978). Size:  241x506
+[613.672ms: hpc2472 (P29)]: Received image segment bordered by: (906,1966) and (1146,2471). Size:  241x506
+[618.56ms: hpc2473 (P30)]: Received image segment bordered by: (906,2459) and (1146,2952). Size:  241x494
+[622.598ms: hpc2473 (P31)]: Received image segment bordered by: (1134,0) and (1363,499). Size:  230x500
+[6203.52ms: hpc2357 (P1)]: Sent image segment bordered by: (0,0) and (227,492). Size:  228x493
+[6301.46ms: hpc2358 (P2)]: Sent image segment bordered by: (0,493) and (227,985). Size:  228x493
+[6307.21ms: hpc2358 (P3)]: Sent image segment bordered by: (0,986) and (227,1478). Size:  228x493
+[6312.95ms: hpc2360 (P4)]: Sent image segment bordered by: (0,1479) and (227,1971). Size:  228x493
+[6318.6ms: hpc2360 (P5)]: Sent image segment bordered by: (0,1972) and (227,2464). Size:  228x493
+[6322.74ms: hpc2361 (P6)]: Sent image segment bordered by: (0,2465) and (227,2952). Size:  228x488
+[6322.8ms: hpc2361 (P6)]: -- done --
+
+[6329.5ms: hpc2361 (P7)]: Sent image segment bordered by: (228,0) and (455,492). Size:  228x493
+[6329.57ms: hpc2361 (P7)]: -- done --
+
+[6335.51ms: hpc2362 (P8)]: Sent image segment bordered by: (228,493) and (455,985). Size:  228x493
+[6335.57ms: hpc2362 (P8)]: -- done --
+
+[6341.21ms: hpc2362 (P9)]: Sent image segment bordered by: (228,986) and (455,1478). Size:  228x493
+[6341.28ms: hpc2362 (P9)]: -- done --
+
+[6346.45ms: hpc2363 (P10)]: Sent image segment bordered by: (228,1479) and (455,1971). Size:  228x493
+[6346.51ms: hpc2363 (P10)]: -- done --
+
+[6351.92ms: hpc2363 (P11)]: Sent image segment bordered by: (228,1972) and (455,2464). Size:  228x493
+[6351.98ms: hpc2363 (P11)]: -- done --
+
+[6357.97ms: hpc2364 (P12)]: Sent image segment bordered by: (228,2465) and (455,2952). Size:  228x488
+[6358.03ms: hpc2364 (P12)]: -- done --
+
+[6363.34ms: hpc2364 (P13)]: Sent image segment bordered by: (456,0) and (683,492). Size:  228x493
+[6363.41ms: hpc2364 (P13)]: -- done --
+
+[6368.89ms: hpc2365 (P14)]: Sent image segment bordered by: (456,493) and (683,985). Size:  228x493
+[6368.95ms: hpc2365 (P14)]: -- done --
+
+[6374.62ms: hpc2365 (P15)]: Sent image segment bordered by: (456,986) and (683,1478). Size:  228x493
+[6374.69ms: hpc2365 (P15)]: -- done --
+
+[6380.77ms: hpc2366 (P16)]: Sent image segment bordered by: (456,1479) and (683,1971). Size:  228x493
+[6380.84ms: hpc2366 (P16)]: -- done --
+
+[6386.34ms: hpc2366 (P17)]: Sent image segment bordered by: (456,1972) and (683,2464). Size:  228x493
+[6386.4ms: hpc2366 (P17)]: -- done --
+
+[6391.96ms: hpc2367 (P18)]: Sent image segment bordered by: (456,2465) and (683,2952). Size:  228x488
+[6392.02ms: hpc2367 (P18)]: -- done --
+
+[6397.37ms: hpc2367 (P19)]: Sent image segment bordered by: (684,0) and (911,492). Size:  228x493
+[6397.43ms: hpc2367 (P19)]: -- done --
+
+[6403.13ms: hpc2368 (P20)]: Sent image segment bordered by: (684,493) and (911,985). Size:  228x493
+[6403.19ms: hpc2368 (P20)]: -- done --
+
+[6408.74ms: hpc2368 (P21)]: Sent image segment bordered by: (684,986) and (911,1478). Size:  228x493
+[6408.8ms: hpc2368 (P21)]: -- done --
+
+[6413.08ms: hpc2369 (P22)]: Sent image segment bordered by: (684,1479) and (911,1971). Size:  228x493
+[6413.15ms: hpc2369 (P22)]: -- done --
+
+[6418.63ms: hpc2369 (P23)]: Sent image segment bordered by: (684,1972) and (911,2464). Size:  228x493
+[6418.71ms: hpc2369 (P23)]: -- done --
+
+[6426.06ms: hpc2370 (P24)]: Sent image segment bordered by: (684,2465) and (911,2952). Size:  228x488
+[6426.12ms: hpc2370 (P24)]: -- done --
+
+[6431.48ms: hpc2370 (P25)]: Sent image segment bordered by: (912,0) and (1139,492). Size:  228x493
+[6431.54ms: hpc2370 (P25)]: -- done --
+
+[6436.89ms: hpc2470 (P26)]: Sent image segment bordered by: (912,493) and (1139,985). Size:  228x493
+[6436.95ms: hpc2470 (P26)]: -- done --
+
+[6442.63ms: hpc2470 (P27)]: Sent image segment bordered by: (912,986) and (1139,1478). Size:  228x493
+[6442.69ms: hpc2470 (P27)]: -- done --
+
+[6448.44ms: hpc2472 (P28)]: Sent image segment bordered by: (912,1479) and (1139,1971). Size:  228x493
+[6448.5ms: hpc2472 (P28)]: -- done --
+
+[6454.08ms: hpc2472 (P29)]: Sent image segment bordered by: (912,1972) and (1139,2464). Size:  228x493
+[6454.14ms: hpc2472 (P29)]: -- done --
+
+[6459.66ms: hpc2473 (P30)]: Sent image segment bordered by: (912,2465) and (1139,2952). Size:  228x488
+[6459.72ms: hpc2473 (P30)]: -- done --
+
+[6464.53ms: hpc2473 (P31)]: Sent image segment bordered by: (1140,0) and (1363,492). Size:  224x493
+[6464.59ms: hpc2473 (P31)]: -- done --
+
+[6472.51ms: hpc2357 (P1)]: Received image segment bordered by: (1134,487) and (1363,992). Size:  230x506
+[6478.69ms: hpc2358 (P2)]: Received image segment bordered by: (1134,980) and (1363,1485). Size:  230x506
+[6483.35ms: hpc2358 (P3)]: Received image segment bordered by: (1134,1473) and (1363,1978). Size:  230x506
+[6488.06ms: hpc2360 (P4)]: Received image segment bordered by: (1134,1966) and (1363,2471). Size:  230x506
+[6492.65ms: hpc2360 (P5)]: Received image segment bordered by: (1134,2459) and (1363,2952). Size:  230x494
+[11920.4ms: hpc2357 (P1)]: Sent image segment bordered by: (1140,493) and (1363,985). Size:  224x493
+[11920.4ms: hpc2357 (P1)]: -- done --
+
+[11925.7ms: hpc2358 (P2)]: Sent image segment bordered by: (1140,986) and (1363,1478). Size:  224x493
+[11925.7ms: hpc2358 (P2)]: -- done --
+
+[11931.1ms: hpc2358 (P3)]: Sent image segment bordered by: (1140,1479) and (1363,1971). Size:  224x493
+[11931.2ms: hpc2358 (P3)]: -- done --
+
+[11954.2ms: hpc2360 (P4)]: Sent image segment bordered by: (1140,1972) and (1363,2464). Size:  224x493
+[11954.3ms: hpc2360 (P4)]: -- done --
+
+[11959.7ms: hpc2360 (P5)]: Sent image segment bordered by: (1140,2465) and (1363,2952). Size:  224x488
+[11959.8ms: hpc2360 (P5)]: -- done --
+
+[11962.7ms: hpc2357 (P0)]: Saving image: p_moon_fmedian_w13_n32.tiff
+[12503.5ms: hpc2357 (P0)]: -- done --
+
+ ----------------------------------------------
+* doing serial image filtering ** 
+* reading regular tiff: ./input/moon_in.tiff
+* processing with filter: median
+* saving image: s_moon_fmedian_w13_n32.tiff
+-- done --
+s_moon_fmedian_w13_n32.tiff is the same as p_moon_fmedian_w13_n32.tiff
+ ----------------------------------------------
+----------------------------------------
+Begin PBS Epilogue Wed Apr  2 18:08:22 PDT 2014
+Job ID:           7757639.hpc-pbs.hpcc.usc.edu
+Username:         piyer
+Group:            csci-ar
+Job Name:         pfilter
+Session:          31250
+Limits:           neednodes=16:ppn=2,nodes=16:ppn=2,walltime=01:00:00
+Resources:        cput=00:11:47,mem=355880kb,vmem=9180464kb,walltime=00:06:51
+Queue:            main
+Shared Access:    no
+Account:          lc_jnc
+End PBS Epilogue Wed Apr  2 18:08:29 PDT 2014
+----------------------------------------

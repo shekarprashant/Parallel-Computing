@@ -1,0 +1,39 @@
+#!/bin/bash
+#PBS -l nodes=16:ppn=2
+#PBS -l walltime=01:00:00
+#PBS -o pfilter.out
+#PBS -A lc_jnc
+#PBS -j oe
+#PBS -N pfilter
+
+#WINDOWS="3 5 8 13"
+#NPROCS="2 4 8 16"
+#FILTERS="mean median"
+
+WINDOWS="3 5 8 13"
+NPROCS="32"
+FILTERS="mean median"
+
+WORK_HOME=/home/rcf-40/piyer/IYER_PRASANTH_HW3/src
+
+source /usr/usc/openmpi/default/setup.sh
+cd $WORK_HOME
+np=$(cat $PBS_NODEFILE | wc -l)
+
+for FILTER in $FILTERS ; do 
+   for WSIZE in $WINDOWS ; do
+     for NPROC in $NPROCS ; do 
+		 echo "-----------------------------------------------"
+		 echo "Filter = "$FILTER
+		 echo "Window Size = "$WSIZE		 
+		 echo "Maximum processors available = "$np		 
+		 if test ${NPROC} -le $np
+		 then
+		    echo "Number of processes "$NPROC
+	   	    OUT=moon_f${FILTER}_w${WSIZE}_n${NPROC}.tiff
+		    mpirun -np $NPROC -machinefile $PBS_NODEFILE ./pfilter ./input/moon_in.tiff ${OUT} ${FILTER} ${WSIZE}
+		 fi
+     done
+   done
+done
+
